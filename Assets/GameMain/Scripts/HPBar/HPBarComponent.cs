@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
-namespace StarForce
+namespace SpeciesGame
 {
     public class HPBarComponent : GameFrameworkComponent
     {
@@ -22,6 +22,11 @@ namespace StarForce
 
         [SerializeField]
         private int m_InstancePoolCapacity = 16;
+
+        // 所有得到的DNA值
+        public float m_AllGetValue = 40;
+        // 是否已经升级
+        public bool isHasLevelUp = false;
 
         private IObjectPool<HPBarItemObject> m_HPBarItemObjectPool = null;
         private List<HPBarItem> m_ActiveHPBarItems = null;
@@ -60,11 +65,13 @@ namespace StarForce
 
         public void ShowHPBar(Entity entity, float fromHPRatio, float toHPRatio)
         {
+
             if (entity == null)
             {
                 Log.Warning("Entity is invalid.");
                 return;
             }
+            ClearAllHPBar();
 
             HPBarItem hpBarItem = GetActiveHPBarItem(entity);
             if (hpBarItem == null)
@@ -119,6 +126,29 @@ namespace StarForce
             }
 
             return hpBarItem;
+        }
+
+        /// <summary>
+        ///  清空所有的节点
+        /// </summary>
+        private void ClearAllHPBar()
+        {
+            for (int i = 0; i < m_ActiveHPBarItems.Count; i++)
+            {
+                if (m_ActiveHPBarItems[i])
+                {
+                    HideHPBar(m_ActiveHPBarItems[i]);
+                }
+            }
+        }
+
+        /// <summary>
+        ///  更新值
+        /// </summary>
+        public void UpdateDNAValue(float val)
+        {
+            HPBarItem hpBarItem = m_ActiveHPBarItems[0];
+            hpBarItem.UpdateValue(val);
         }
     }
 }

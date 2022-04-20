@@ -6,8 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/StarForce Launcher.unity
-  - enabled: 1
-    path: Assets/GameMain/Scenes/Main.unity
+    path: Assets/SpeciesGame Launcher.unity
+    guid: 9d2d51bf0fc3dfc42908e3a7a64f4feb
   - enabled: 1
     path: Assets/GameMain/Scenes/Menu.unity
+    guid: 09789f9dc4e73e442b593cc82d30abce
+  - enabled: 1
+    path: Assets/GameMain/Scenes/Main.unity
+    guid: 6f1b67c0346b47a4cbe9c0fe344968cb
+  m_configObjects: {}

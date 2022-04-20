@@ -7,7 +7,7 @@
 
 using UnityEngine;
 
-namespace StarForce
+namespace SpeciesGame
 {
     public static partial class Constant
     {

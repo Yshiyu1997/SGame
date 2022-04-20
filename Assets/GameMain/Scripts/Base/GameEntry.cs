@@ -7,7 +7,7 @@
 
 using UnityEngine;
 
-namespace StarForce
+namespace SpeciesGame
 {
     /// <summary>
     /// 游戏入口。

@@ -7,7 +7,7 @@
 
 using UnityEngine;
 
-namespace StarForce
+namespace SpeciesGame
 {
     /// <summary>
     /// 游戏入口。
@@ -26,10 +26,17 @@ namespace StarForce
             private set;
         }
 
+        public static DNAComponent DNA
+        {
+            get;
+            private set;
+        }
+
         private static void InitCustomComponents()
         {
             BuiltinData = UnityGameFramework.Runtime.GameEntry.GetComponent<BuiltinDataComponent>();
             HPBar = UnityGameFramework.Runtime.GameEntry.GetComponent<HPBarComponent>();
+            DNA= UnityGameFramework.Runtime.GameEntry.GetComponent<DNAComponent>();
         }
     }
 }

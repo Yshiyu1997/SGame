@@ -5,7 +5,7 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 
-namespace StarForce
+namespace SpeciesGame
 {
     public static partial class Constant
     {
@@ -24,14 +24,18 @@ namespace StarForce
             public const int UIFormAsset = 50;
             public const int UISoundAsset = 30;
 
-            public const int MyAircraftAsset = 90;
-            public const int AircraftAsset = 80;
-            public const int ThrusterAsset = 30;
-            public const int WeaponAsset = 30;
-            public const int ArmorAsset = 30;
-            public const int BulletAsset = 80;
-            public const int AsteroiAsset = 80;
-            public const int EffectAsset = 80;
+            public const int PlayerAsset = 90;
+            public const int TyrannosaurusRexAsset = 90;
+            public const int VelociraptorAsset = 80;
+            public const int TriceratopsAsset = 80;
+            public const int BrachiosauruAsset = 80;
+            public const int EnemyAsset = 80;
+            public const int BaryonyxAsset = 80;
+            public const int CarnotaurusAsset = 80;
+            public const int RouAsset = 80;
+            public const int Death_ParticleAsset = 80;
+            public const int LevelUp_1Asset = 80;
+            public const int LevelUp_2Asset = 80;
         }
     }
 }

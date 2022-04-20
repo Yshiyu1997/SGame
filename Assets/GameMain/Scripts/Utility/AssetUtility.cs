@@ -7,7 +7,7 @@
 
 using GameFramework;
 
-namespace StarForce
+namespace SpeciesGame
 {
     public static class AssetUtility
     {
@@ -43,7 +43,7 @@ namespace StarForce
 
         public static string GetSoundAsset(string assetName)
         {
-            return Utility.Text.Format("Assets/GameMain/Sounds/{0}.wav", assetName);
+            return Utility.Text.Format("Assets/GameMain/Sounds/{0}.mp3", assetName);
         }
 
         public static string GetEntityAsset(string assetName)
@@ -58,7 +58,7 @@ namespace StarForce
 
         public static string GetUISoundAsset(string assetName)
         {
-            return Utility.Text.Format("Assets/GameMain/UI/UISounds/{0}.wav", assetName);
+            return Utility.Text.Format("Assets/GameMain/UI/UISounds/{0}.mp3", assetName);
         }
     }
 }

@@ -7,7 +7,7 @@
 
 using System.Runtime.InteropServices;
 
-namespace StarForce
+namespace SpeciesGame
 {
     [StructLayout(LayoutKind.Auto)]
     public struct ImpactData
@@ -23,6 +23,8 @@ namespace StarForce
             m_HP = hp;
             m_Attack = attack;
             m_Defense = defense;
+
+            
         }
 
         public CampType Camp

@@ -8,9 +8,10 @@
 using GameFramework;
 using GameFramework.DataTable;
 using GameFramework.Sound;
+using UnityEngine;
 using UnityGameFramework.Runtime;
 
-namespace StarForce
+namespace SpeciesGame
 {
     public static class SoundExtension
     {
@@ -163,5 +164,8 @@ namespace StarForce
             GameEntry.Setting.SetFloat(Utility.Text.Format(Constant.Setting.SoundGroupVolume, soundGroupName), volume);
             GameEntry.Setting.Save();
         }
+
+
+       
     }
 }

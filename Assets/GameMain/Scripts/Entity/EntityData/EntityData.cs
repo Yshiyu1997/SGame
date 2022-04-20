@@ -8,7 +8,7 @@
 using System;
 using UnityEngine;
 
-namespace StarForce
+namespace SpeciesGame
 {
     [Serializable]
     public abstract class EntityData

@@ -2,157 +2,1048 @@
 <UnityGameFramework>
   <ResourceCollection>
     <Resources>
+      <Resource Name="Ani/donghua/huoshan/huoshan" LoadType="0" Packed="False" />
+      <Resource Name="Ani/donghua/menu/kaishi" LoadType="0" Packed="False" />
+      <Resource Name="Ani/donghua/Title/Title" LoadType="0" Packed="False" />
+      <Resource Name="Ani/donghua/Title/TitleIcon" LoadType="0" Packed="False" />
       <Resource Name="Configs" FileSystem="GameData" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="DataTables" FileSystem="GameData" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Entities" FileSystem="Resources" LoadType="0" Packed="True" />
+      <Resource Name="DataTables/Enemy" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Entity" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Level" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Music" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Player" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Scene" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/Sound" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/UIForm" LoadType="0" Packed="False" />
+      <Resource Name="DataTables/UISound" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Baryonyx_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Bettle" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Brachiosauru" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Brachiosauru_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Brachiosauru_Player2" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Brachiosauru_Player3" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Carnotaurus_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Death_Particle" LoadType="0" Packed="False" />
+      <Resource Name="Entities/DinosaurEgg_Enemy" LoadType="0" Packed="False" />
+      <Resource Name="Entities/FruiterTree_Enemy" LoadType="0" Packed="False" />
+      <Resource Name="Entities/GuoShi" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Iguanodon_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/IguanodonDie_Enemy" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Kentrosaurus_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/LevelUp_1" LoadType="0" Packed="False" />
+      <Resource Name="Entities/LevelUp_2" LoadType="0" Packed="False" />
+      <Resource Name="Entities/MushRoom" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Oviraptor_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Pachycephalosaurus_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Parasaurolophus" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Protoceratops_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Rou" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Rou_2" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Spinosaurus_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Stegosaurus_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Styracosaurus_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Triceratops" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Triceratops_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Troodon_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/TyrannosaurusRex" LoadType="0" Packed="False" />
+      <Resource Name="Entities/TyrannosaurusRex_Player" LoadType="0" Packed="False" />
+      <Resource Name="Entities/TyrannosaurusRex_Player2" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Velociraptor" LoadType="0" Packed="False" />
+      <Resource Name="Entities/Velociraptor_Player" LoadType="0" Packed="False" />
       <Resource Name="Fonts" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Localization/Dictionaries" Variant="en-us" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Localization/Dictionaries" Variant="ko-kr" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Localization/Dictionaries" Variant="zh-cn" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Localization/Dictionaries" Variant="zh-tw" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Materials" FileSystem="Resources" LoadType="0" Packed="True" />
-      <Resource Name="Meshes" FileSystem="Resources" LoadType="0" Packed="True" />
-      <Resource Name="Music/About" FileSystem="Resources" LoadType="0" Packed="True" ResourceGroups="Music" />
-      <Resource Name="Music/Background" FileSystem="Resources" LoadType="0" Packed="True" ResourceGroups="Music" />
-      <Resource Name="Music/Menu" FileSystem="Resources" LoadType="0" Packed="True" ResourceGroups="Music" />
-      <Resource Name="Scenes" FileSystem="Resources" LoadType="0" Packed="True" />
-      <Resource Name="Sounds" FileSystem="Resources" LoadType="0" Packed="True" />
-      <Resource Name="Textures" FileSystem="Resources" LoadType="0" Packed="True" />
-      <Resource Name="UI/UIForms" FileSystem="UI" LoadType="0" Packed="True" />
+      <Resource Name="Localization/ChineseSimplified/Dictionaries/Default" LoadType="0" Packed="False" />
+      <Resource Name="Localization/ChineseTraditional/Dictionaries/Default" LoadType="0" Packed="False" />
+      <Resource Name="Localization/English/Dictionaries/Default" LoadType="0" Packed="False" />
+      <Resource Name="Localization/Korean/Dictionaries/Default" LoadType="0" Packed="False" />
+      <Resource Name="Materials/Panel_1" LoadType="0" Packed="False" />
+      <Resource Name="Materials/TestMat" LoadType="0" Packed="False" />
+      <Resource Name="Meshes/PanelMat" LoadType="0" Packed="False" />
+      <Resource Name="Model/Beetle/Bettle" LoadType="0" Packed="False" />
+      <Resource Name="Model/Beetle/JiaKeChong" LoadType="0" Packed="False" />
+      <Resource Name="Model/Beetle/JiaKeChong_green" LoadType="0" Packed="False" />
+      <Resource Name="Model/Beetle/JiaKeChong_orange" LoadType="0" Packed="False" />
+      <Resource Name="Model/Beetle/JiaKeChong_yellow" LoadType="0" Packed="False" />
+      <Resource Name="Model/Beetle/JiaKeChongRun" LoadType="0" Packed="False" />
+      <Resource Name="Model/Beetle/Materials/JiaKeChong" LoadType="0" Packed="False" />
+      <Resource Name="Model/Beetle/Materials/JiaKeChong_green" LoadType="0" Packed="False" />
+      <Resource Name="Model/DinanoEgg/DanChao" LoadType="0" Packed="False" />
+      <Resource Name="Model/DinanoEgg/DinosaurEgg_BaseColor" LoadType="0" Packed="False" />
+      <Resource Name="Model/DinanoEgg/DinosaurEgg_Enemy" LoadType="0" Packed="False" />
+      <Resource Name="Model/DinanoEgg/Materials/DinosaurEgg_BaseColor" LoadType="0" Packed="False" />
+      <Resource Name="Model/FruiterTree/FruiterTree" LoadType="0" Packed="False" />
+      <Resource Name="Model/FruiterTree/FruiterTree_1" LoadType="0" Packed="False" />
+      <Resource Name="Model/FruiterTree/GuoShu" LoadType="0" Packed="False" />
+      <Resource Name="Model/FruiterTree/xiangshu3baozha" LoadType="0" Packed="False" />
+      <Resource Name="Model/Guoshi/GuoShi" LoadType="0" Packed="False" />
+      <Resource Name="Model/MushRoom/Materials/mogu" LoadType="0" Packed="False" />
+      <Resource Name="Model/MushRoom/mogu" LoadType="0" Packed="False" />
+      <Resource Name="Model/MushRoom/MoGu_2" LoadType="0" Packed="False" />
+      <Resource Name="Music/music_background" LoadType="0" Packed="False" />
+      <Resource Name="Music/music_menu" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/Change/jinhua/evolve" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/Change/jinhua/guangqiu" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/Change/jinhua/guangqiu_1" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/Change/jinhua/quan" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/Change/jinhua/quanMar" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/PolygonArsenal/Lights/PolygonLight" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/PolygonArsenal/Materials/Gradients/PolySpriteGlow_ADD" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/PolygonArsenal/Materials/Rimlight/Solid/BlackHole/PolyBlackHoleOuterLayer" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/PolygonArsenal/Materials/Sprites/PolySprite_AB" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/PolygonArsenal/Models/PolyDiamond" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/PolygonArsenal/Models/PolySphereMega2" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/PolygonArsenal/Shaders/Standard/PolyRimLightTransparent" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/PolygonArsenal/Textures/guang1" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/PolygonArsenal/Textures/polySpriteGlow" LoadType="0" Packed="False" />
+      <Resource Name="Particle/ChangeSpecies/PolygonArsenal/Textures/polyspriteline" LoadType="0" Packed="False" />
+      <Resource Name="Particle/Death/PolygonParticleFX/Materials/PolygonParticleFX_Additive_Soft" LoadType="0" Packed="False" />
+      <Resource Name="Particle/Death/PolygonParticleFX/Models/FX_Sphere_03" LoadType="0" Packed="False" />
+      <Resource Name="Particle/Death/PolygonParticleFX/Models/FX_Star" LoadType="0" Packed="False" />
+      <Resource Name="Particle/Death/PolygonParticleFX/Prefabs/Death_Particle" LoadType="0" Packed="False" />
+      <Resource Name="Particle/LevelUp_1/Prefabs/LevelUp_1" LoadType="0" Packed="False" />
+      <Resource Name="Particle/LevelUp_1/Textures/PolygonParticles_Sparkle" LoadType="0" Packed="False" />
+      <Resource Name="Particle/LevelUp_2/Materials/PolygonParticleFX_Fumes_01" LoadType="0" Packed="False" />
+      <Resource Name="Particle/LevelUp_2/Materials/PolygonParticleFX_HalfCircle" LoadType="0" Packed="False" />
+      <Resource Name="Particle/LevelUp_2/Materials/PolygonParticleFX_Sparkle" LoadType="0" Packed="False" />
+      <Resource Name="Particle/LevelUp_2/Models/FX_Cylinder_01" LoadType="0" Packed="False" />
+      <Resource Name="Particle/LevelUp_2/Prefabs/LevelUp_2" LoadType="0" Packed="False" />
+      <Resource Name="Particle/LevelUp_2/Textures/PolygonParticles_Fumes_04" LoadType="0" Packed="False" />
+      <Resource Name="Particle/LevelUp_2/Textures/PolygonParticles_HalfCircle" LoadType="0" Packed="False" />
+      <Resource Name="Prefabs/Brachiosauru" LoadType="0" Packed="False" />
+      <Resource Name="Prefabs/Brachiosauru_1" LoadType="0" Packed="False" />
+      <Resource Name="Prefabs/Carnotaurus" LoadType="0" Packed="False" />
+      <Resource Name="Prefabs/Iguanodon" LoadType="0" Packed="False" />
+      <Resource Name="Prefabs/Oviraptor" LoadType="0" Packed="False" />
+      <Resource Name="Prefabs/Protoceratops" LoadType="0" Packed="False" />
+      <Resource Name="Prefabs/Spinosaurus" LoadType="0" Packed="False" />
+      <Resource Name="Prefabs/Stegosaurus" LoadType="0" Packed="False" />
+      <Resource Name="Prefabs/Styracosaurus" LoadType="0" Packed="False" />
+      <Resource Name="Prefabs/TyrannosaurusRex" LoadType="0" Packed="False" />
+      <Resource Name="Prefabs/Velociraptor" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/Main" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/Menu" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/attack_Player" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/eatRou" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/gameFailed" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/hit_Brachiosauru" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/hit_Player" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/hit_Triceraptor" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/hit_Velociraptor" LoadType="0" Packed="False" />
+      <Resource Name="Sounds/levelUp" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/MeshTerrainEditor/Shaders/Builtin/Standard/4Textures/Bumped" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Rou/Materials/meat" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Rou/meat" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Rou/prefabs/Rou_1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Rou/prefabs/Rou_2" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Rou/zhiwu/Rou_1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Rou/zhiwu/Rou_2" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/sky/BK" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/sky/DN" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/sky/FR" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/sky/LF" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/sky/RT" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/sky/sky" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/sky/UP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Blocks_Color" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/cao" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/danlvse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Ddanlvse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Dhuamuqian" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Dhuamushen" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/di/1222221" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/di/map" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dixing/dixing" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dixing/SplatAlpha0" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/bawanglong/BWanglong" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/bawanglong/rexLowA" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/bawanglong/rexLowB" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/bawanglong/rexLowC" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/bawanglong/rexLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/bawanglong/rexLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/chushilong/oviLowA" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/chushilong/oviLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/chushilong/OviLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/chushilong/pachyLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/chushilong/PachyLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/chushilong/trooLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/chushilong/TrooLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Jilong/baryLowC" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Jilong/baryLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Jilong/baryLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Jilong/rapLowA" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Jilong/rapLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Jilong/rapLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Jilong/spinoLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Jilong/spinoLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/BaryLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/BrachLP_1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/BWL_1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/BWL_2" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/BWL_3" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/DimeLP_3" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/IguaLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/OviLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/PachyLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/ProtoLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/RapLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/SpinoLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/StegLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/StyraLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/TricLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/ptefabs/TrooLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/protoLowC" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/protoLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/protoLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/styraLowA" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/styraLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/styraLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/tricLowA" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/tricLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/tricLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/iguaLowA" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/iguaLowB" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/iguaLowC" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/iguaLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/iguaLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/kentLowA" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/kentLowB" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/kentLowC" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/kentLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/kentLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/stegLowC" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/stegLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/shicaolong/stegLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Xiyi/Atlas" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Xiyi/Atlas_2" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Xiyi/dimeLowA" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Xiyi/dimeLowPoly" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/dongwu/Xiyi/dimeLP" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/DRed" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Dshense" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Dungeons_Texture_01" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Dungeons_Texture_02" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Dungeons_Texture_03" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Dungeons_Texture_04" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Gqianse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/grass001" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Gshense" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/gutou/guzhu" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/gutou/leigu" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/gutou/shenqu" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/gutou/tou" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/gutou/weiba" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Gzhongse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/honghua" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/cao" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/Color" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/ColorAtlas" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/Hhuacao" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/honghua" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/Honghuacao" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/huacao" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/Materials/ColorAtlas" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/Materials/Plants_Texture" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/Materials/Plants_Texture_tga" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/newMat" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/PERFAB/cao" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/PERFAB/Hhuacao" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/PERFAB/Honghuacao" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huacao/Zihuacao" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huangse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/huangshitou" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/lanbaoshi" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/lvshitou" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/lvshu" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/map/map" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Materials/Blocks_Color" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Materials/Dungeons_Texture_01" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Materials/Dungeons_Texture_02" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Materials/Dungeons_Texture_03" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Materials/Dungeons_Texture_04" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Materials/mine_ore" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Materials/mine_ore_tga" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Materials/Texture_01" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/mine_ore" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/newMar" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/NewTerrain_2" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/qianlvse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Sand2" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shenlvse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shitou" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shitou1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/Ddanlvse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/Dhongse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/Dhuamuqian" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/Dhuamushen" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/Dshense" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/Gqianlvse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/Gshenlvse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/Gzhonglvse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/huangshu" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/PERFAB/Dhuamushen" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/PERFAB/Dshense" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/PERFAB/Gqianlvse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/PERFAB/Gshenlvse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/PERFAB/huangshu" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/PERFAB/qianlvshu" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/PERFAB/xiangshu1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/PERFAB/xiangshu2" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/PERFAB/xiangshu3" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/PERFAB/xiangshu4" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/qianlvshu" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/shenlv" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/shugandao" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/Texture_01" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/xiangshu1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/xiangshu2" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/xiangshu3" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shu/xiangshu4" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shui/Materials/__Water_Pool_Light_1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shui/Materials/Water_Pool_Light_1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/shui/shui" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Stone/Dshitou" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Stone/Hshitou1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Stone/Hshitou2" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Stone/Hshitou3" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Stone/Hshitou4" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Stone/perfab/Dshitou" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Stone/perfab/Hshitou1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Stone/perfab/Hshitou2" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Stone/perfab/Xshitou" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Stone/shitou" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Stone/Xshitou" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/TerrainData_73de6eed-a49d-43fb-8e10-9a22bd10abd5" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/TerrainData_991f502a-197e-43f2-a9a2-6456a7001341" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/Tree" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/xiangshu1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/xiangshu2" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/xiangshu3" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/moxing/xiangshu4" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/PolygonNature/TerrainAutoUpgrade/layer_GrassBaseGrass_normals2023054508611406" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/PolygonNature/TerrainAutoUpgrade/layer_Sand_DesertBaseGrass_normals2023054508611406" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/PolygonNature/Textures/Ground_Textures/BaseGrass_normals" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/PolygonNature/Textures/Ground_Textures/Grass1" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/PolygonNature/Textures/Ground_Textures/Grass_02" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/PolygonNature/Textures/Ground_Textures/Sand_Desert" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/PolygonNature/Textures/Ground_Textures/tuse" LoadType="0" Packed="False" />
+      <Resource Name="Terrain/Terrain_2/Prefab/Map" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/AwardForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/BoxForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/ChoiceForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/DialogForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/EvoLuScForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/EvoluTreeForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/FailedForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/GameForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/MenuForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/TipsForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/UnpackForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/UpdateResourceForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIItems/DNAItem" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIItems/HPBarItem_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIItems/WarningSign" LoadType="0" Packed="False" />
       <Resource Name="UI/UISounds" FileSystem="UI" LoadType="0" Packed="True" />
-      <Resource Name="UI/UISprites/Common" FileSystem="UI" LoadType="0" Packed="True" />
-      <Resource Name="UI/UISprites/Icons" FileSystem="UI" LoadType="0" Packed="True" />
-      <Resource Name="UI/UISprites/Logos" FileSystem="UI" LoadType="0" Packed="True" />
+      <Resource Name="UI/UISprites/Box/bx_baoxiang_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Box/bx_baoxiang_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Box/bx_baoxiang_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Box/bx_baoxiang_4" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Box/bx_bg" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Box/bx_dk" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Box/bx_gxhd" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Box/bx_jdt_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Box/bx_jdt_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Box/bx_jinbi" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/jhfz_sidai" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_konglong_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_konglong_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_konglong_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_konglong_4" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_konglong_5" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_konglong_8" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_konglong_9" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_kuang_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_kuang_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_kuang_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_kuang_wjs" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Card/kp_xz" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/background" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/box" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/button-filled" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/button-outline" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/checked" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/circle" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/circle-filled" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/circle-outline" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/czjm_jinbi_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/dialog-background" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/dialog-title-background" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/info" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/line" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/progress-conner" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/progressbar" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/progressbar-background" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/round-button-filled" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/round-button-outline" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/ty_anniu_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/ty_anniu_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/ty_guanbi" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Common/ty_ksp" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvolutionSceen/jhbj_bg" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvolutionSceen/jhbj_wudian" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvolutionSceen/jhbj_xing_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvolutionSceen/jhbj_xing_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/Bg_All" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/Bg_Dino" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/Bg_Evo" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/Bg_Fish" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/Bg_JInHua" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/Bg_Sure" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_bg" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_biaoti" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_biaoti_dk" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_gjkp" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_gqweijiesuo" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_gqweijiesuo_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_jdt_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_jdt_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_jintou_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_jintou_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_jintou_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_jintou_4" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_jintou_5" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_jintou_6" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_jintou_7" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_jintou_8" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_jujd" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_konglong_fenzhi_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_kpshjd" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_qbjhfz" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_qrdk" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_qrsd" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_sidai" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_suo" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_tu_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_tu_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_tu_biaoti" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_tu_dk" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_zhiren_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_zhiren_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/EvoluTree/jhfz_zhiren_fenzhi_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Failed/sb_dk" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_aixin_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_aixin_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_aixin_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_baoxiang" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_dengji" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_dengji_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_dengji_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_dengji_4" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_dengji_5" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_dna" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_gongji" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_jinbi" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_jinhualian" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_shuzi" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_wei" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_xueliang" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_xueliang_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_xueliang_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_yaogan_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_yaogan_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/czjm_zanting" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/GameRefer" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/yxjm_yaogan_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Game/yxjm_yaogan_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Icons/music" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Icons/sound" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Icons/world" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Logos/unity-logo" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/dimian" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/huoshan/hsy_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/huoshan/hsy_10" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/huoshan/hsy_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/huoshan/hsy_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/huoshan/hsy_4" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/huoshan/hsy_5" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/huoshan/hsy_6" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/huoshan/hsy_7" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/huoshan/hsy_8" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/huoshan/hsy_9" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/cao" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/dimian" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/feilong" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/guangdian" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/konglong" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/laohu" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/shu_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/shu_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/shu_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/shu_4" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/shu_5" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/shu_6" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/tiankong" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/yanshi" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/yanyun" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/yinying_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/yinying_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/yinying_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/yuanshiren" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/yun1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/kaishijiemian/yun2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/Menu/tiankong" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/TreeSpecies/jhfz_konglong_1" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/TreeSpecies/jhfz_konglong_2" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/TreeSpecies/jhfz_konglong_3" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/TreeSpecies/jhfz_konglong_4" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/TreeSpecies/jhfz_konglong_5" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/TreeSpecies/jhfz_konglong_6" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/TreeSpecies/jhfz_konglong_8" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/TreeSpecies/jhfz_konglong_9" LoadType="0" Packed="False" />
+      <Resource Name="UI/UISprites/TreeSpecies/jhfz_kun_5" LoadType="0" Packed="False" />
     </Resources>
     <Assets>
-      <Asset Guid="0179316b5fc7c2946a67c5877c02fc30" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="04d7dde7615d71b4db1a0c8d67a62e95" ResourceName="UI/UIForms" />
-      <Asset Guid="04dbc0581071c254ea6564b2ff06ff9b" ResourceName="Textures" />
-      <Asset Guid="093f8873cfe371d41b854ed9fb6bff69" ResourceName="Music/About" />
-      <Asset Guid="0963e6c65b2b1f74d9f455e21901e2dc" ResourceName="Textures" />
-      <Asset Guid="0992f89f84d762f478fd32f8225168b0" ResourceName="Entities" />
-      <Asset Guid="09966b19e546cc94aa84d0743cb2a83d" ResourceName="UI/UIForms" />
-      <Asset Guid="0a65a68c01a76ea4b8b574827a6467aa" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="0ed73dc47f4cb38489020d05e9f02c99" ResourceName="Materials" />
-      <Asset Guid="0f995b3145e0e7247a42da6cef1dbf23" ResourceName="Materials" />
-      <Asset Guid="1053b0070685be347ab58587156842dc" ResourceName="Localization/Dictionaries" ResourceVariant="zh-tw" />
-      <Asset Guid="11e27c26ac87b40f0a62ec40d7261989" ResourceName="Entities" />
-      <Asset Guid="1478894bc9a1ed241b05b0862a7b8bce" ResourceName="Textures" />
-      <Asset Guid="14869ac0d4433f04db1704e39d03412e" ResourceName="Localization/Dictionaries" ResourceVariant="en-us" />
-      <Asset Guid="156d241f796508c4da4fc354a7fbf5a8" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="160925a6fe2664f2a978566b819f0af0" ResourceName="Entities" />
-      <Asset Guid="185f97f18bd603a478461ce9c08bd039" ResourceName="Materials" />
-      <Asset Guid="1b4bad6cea5a94611b21f9757fe41444" ResourceName="Materials" />
-      <Asset Guid="1be4472894949437694aead55c6da60f" ResourceName="Sounds" />
-      <Asset Guid="1c89236d45255234ebd1d39657ff7e02" ResourceName="Textures" />
-      <Asset Guid="1cfe02ffd0b74854ea5bcd1a3c63ac3c" ResourceName="Materials" />
-      <Asset Guid="1d46a17a95a444c08830612bc1146d1d" ResourceName="Materials" />
-      <Asset Guid="1e0350b97c61bfb4a91c62d756d01727" ResourceName="Materials" />
-      <Asset Guid="236433a27ce40a7429b87d14d8fa3035" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="239366f83979ffa48a45dac2f0f1e8cb" ResourceName="DataTables" />
-      <Asset Guid="24ca310f92a6796408f1db7647ec4e55" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="2768a9a4c8d289840918dcb879705893" ResourceName="Meshes" />
-      <Asset Guid="2cb5eef4d7d7bf6459dd13a3f8d90246" ResourceName="Textures" />
-      <Asset Guid="315e8ed2db27c254cb3366ff0793cd90" ResourceName="DataTables" />
-      <Asset Guid="3455fe69f7ddc4604b95bf9b0a1e88d7" ResourceName="Entities" />
-      <Asset Guid="352da872791696c48af3b21132e3e3c3" ResourceName="DataTables" />
-      <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" ResourceName="DataTables" />
-      <Asset Guid="3aa539b1e46111d4299a83c73ebe762c" ResourceName="UI/UIForms" />
-      <Asset Guid="3be3fac3611f4584695662c4889f722d" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="3dc7455402dfa462b89a4bbd513955e9" ResourceName="Sounds" />
-      <Asset Guid="3e504a46a8fcec34db3c4776530c6eb2" ResourceName="Textures" />
-      <Asset Guid="3f54fcfdac53aec42ae18a6a1c6d8cb1" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="4473d81b14ddb0143addf0e6050d8491" ResourceName="Scenes" />
+      <Asset Guid="0030cb33865b2a343a45fb3cf3b67e7d" ResourceName="UI/UISprites/Game/czjm_yaogan_1" />
+      <Asset Guid="00c5a79c654ecfd45855ecd00db91fcc" ResourceName="Terrain/Terrain_2/moxing/mine_ore" />
+      <Asset Guid="012d6363563778e48ab696f65b3e2f9b" ResourceName="Entities/Velociraptor" />
+      <Asset Guid="0179316b5fc7c2946a67c5877c02fc30" ResourceName="UI/UISprites/Common/info" />
+      <Asset Guid="017be390a2eab764187a3a38cb8801a4" ResourceName="Model/Beetle/JiaKeChong" />
+      <Asset Guid="0191065febb0d584d8bc23b85663a44f" ResourceName="Particle/ChangeSpecies/PolygonArsenal/Models/PolyDiamond" />
+      <Asset Guid="01983548bed3b66499415fad28a28307" ResourceName="Terrain/Terrain_2/moxing/dongwu/bawanglong/rexLP" />
+      <Asset Guid="01c440949f28dd44b88efacd90a9545c" ResourceName="UI/UISprites/Game/czjm_yaogan_2" />
+      <Asset Guid="0212a602a8f847546b55590c6131aaec" ResourceName="UI/UISprites/Common/czjm_jinbi_2" />
+      <Asset Guid="0250558cfa47b4842a8ac0ddac5e8a8f" ResourceName="UI/UISprites/EvoluTree/jhfz_gqweijiesuo" />
+      <Asset Guid="02cc76aa3b0ba554cb57bc02356f04da" ResourceName="Terrain/Terrain_2/moxing/dixing/dixing" />
+      <Asset Guid="031627d3288666c45968160091d421f1" ResourceName="Model/FruiterTree/FruiterTree" />
+      <Asset Guid="034d2d4d69b145a42917d854a35f4e7e" ResourceName="Entities/DinosaurEgg_Enemy" />
+      <Asset Guid="0370b2d162700734297405e1f3b78cf2" ResourceName="Terrain/Terrain_2/moxing/DRed" />
+      <Asset Guid="040df5903d077d94584f02baef683411" ResourceName="Terrain/MeshTerrainEditor/Shaders/Builtin/Standard/4Textures/Bumped" />
+      <Asset Guid="04c94205eca5f564f93136dc527ed1cb" ResourceName="Terrain/Terrain_2/moxing/shu/Dshense" />
+      <Asset Guid="04d7dde7615d71b4db1a0c8d67a62e95" ResourceName="UI/UIForms/DialogForm" />
+      <Asset Guid="05dcd851a89870941b4cc2712b372480" ResourceName="Terrain/Terrain_2/PolygonNature/Textures/Ground_Textures/Sand_Desert" />
+      <Asset Guid="064c9dbd36eeda54dbe1762a888aee58" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/BWL_2" />
+      <Asset Guid="06f741ea249ddd6488875b93156b8991" ResourceName="Materials/TestMat" />
+      <Asset Guid="084ca6185924b9e47a924db39cca159f" ResourceName="Terrain/Terrain_2/moxing/TerrainData_73de6eed-a49d-43fb-8e10-9a22bd10abd5" />
+      <Asset Guid="0944ffefc10cf1540a684b01b57ead91" ResourceName="Terrain/Terrain_2/moxing/Stone/Xshitou" />
+      <Asset Guid="095dfc91beb37514c8f6df709e36ad56" ResourceName="UI/UISprites/EvoluTree/jhfz_gqweijiesuo_2" />
+      <Asset Guid="09789f9dc4e73e442b593cc82d30abce" ResourceName="Scenes/Menu" />
+      <Asset Guid="09966b19e546cc94aa84d0743cb2a83d" ResourceName="UI/UIForms/MenuForm" />
+      <Asset Guid="09e20c5735b43c740992229ab1b3b6ce" ResourceName="Terrain/Rou/zhiwu/Rou_1" />
+      <Asset Guid="0a18d486af758f744ab499924730f8e3" ResourceName="Terrain/Terrain_2/moxing/lanbaoshi" />
+      <Asset Guid="0a567f9cded08504cbde0a68cd6e7ad0" ResourceName="Terrain/Terrain_2/moxing/huacao/ColorAtlas" />
+      <Asset Guid="0a65a68c01a76ea4b8b574827a6467aa" ResourceName="UI/UISprites/Common/dialog-title-background" />
+      <Asset Guid="0a71ce57899c7834887ad16756974254" ResourceName="Entities/Spinosaurus_Player" />
+      <Asset Guid="0bd1e3574e1addf4d83212f20f12023c" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/TricLP" />
+      <Asset Guid="0c04a514804f4af438d9afca8124b726" ResourceName="Ani/donghua/menu/kaishi" />
+      <Asset Guid="0c3e614eb46e8cc448bcb97649d3a4cb" ResourceName="UI/UISprites/Game/GameRefer" />
+      <Asset Guid="0c5b58702a8f51b40a399a7402722f01" ResourceName="UI/UISounds" />
+      <Asset Guid="0c9d3482218248a43b6ea61ebfdacc69" ResourceName="UI/UISprites/Menu/huoshan/hsy_3" />
+      <Asset Guid="0d03e8c8b94ec6b4a8eb1eea50f9d6c2" ResourceName="Terrain/Terrain_2/moxing/gutou/tou" />
+      <Asset Guid="0d6cebc8151438d43985958c3543a1d0" ResourceName="UI/UISprites/Game/czjm_wei" />
+      <Asset Guid="0e0775ae36bff6141960ec56cd62808b" ResourceName="UI/UIForms/EvoLuScForm" />
+      <Asset Guid="0e3b2c9f9e8e9b8459322dbd38c03f8a" ResourceName="Terrain/Terrain_2/moxing/Stone/shitou" />
+      <Asset Guid="0f65295af56b3e64f86f7bbbd3c117a8" ResourceName="UI/UISprites/Menu/kaishijiemian/cao" />
+      <Asset Guid="0fa56c2ec4e9cc64ead5b9ea2c73050a" ResourceName="UI/UISprites/Card/kp_kuang_1" />
+      <Asset Guid="1053b0070685be347ab58587156842dc" ResourceName="Localization/ChineseTraditional/Dictionaries/Default" />
+      <Asset Guid="1054c9e4829972244956e01f233270d0" ResourceName="Terrain/Terrain_2/moxing/Stone/perfab/Dshitou" />
+      <Asset Guid="10d6a3be06b7d674fb05a177512ee771" ResourceName="Entities/Bettle" />
+      <Asset Guid="129bd9a1403689e4d8dfa3eeec13412a" ResourceName="Terrain/Terrain_2/moxing/dongwu/chushilong/pachyLowPoly" />
+      <Asset Guid="13509f247c6baaa42ba0fa940ed5d157" ResourceName="Materials/Panel_1" />
+      <Asset Guid="1371736e9411ed447a0daf5f4fc43065" ResourceName="UI/UIItems/HPBarItem_1" />
+      <Asset Guid="138ab1297b504d02898c03bd3acfc171" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/iguaLowB" />
+      <Asset Guid="14869ac0d4433f04db1704e39d03412e" ResourceName="Localization/English/Dictionaries/Default" />
+      <Asset Guid="156d241f796508c4da4fc354a7fbf5a8" ResourceName="UI/UISprites/Common/progressbar-background" />
+      <Asset Guid="15b901b2f3533434ba88ac0d463c9d6f" ResourceName="Terrain/Terrain_2/moxing/dongwu/chushilong/trooLowPoly" />
+      <Asset Guid="1668e17f563df9c4e8362f6b7092a6b9" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/kentLowC" />
+      <Asset Guid="1678bfd5c48b4f846b64ecac5fb44cf2" ResourceName="Terrain/Terrain_2/moxing/dongwu/Jilong/rapLP" />
+      <Asset Guid="178544f6ca82e7c46b7f568c18a9649e" ResourceName="Terrain/Terrain_2/moxing/shui/Materials/__Water_Pool_Light_1" />
+      <Asset Guid="1797da9454eb1a1429a0bad774ce4a22" ResourceName="Terrain/Terrain_2/moxing/huangse" />
+      <Asset Guid="181f59e113e1fb5469938d05cc61c42c" ResourceName="UI/UIForms/EvoluTreeForm" />
+      <Asset Guid="188751cb87254524a90782b359bcef1f" ResourceName="Entities/Stegosaurus_Player" />
+      <Asset Guid="18ff737d888b9b64ba3c330b57b85fff" ResourceName="Terrain/Terrain_2/moxing/huacao/Zihuacao" />
+      <Asset Guid="19851fff480751c4eb17d22da057fed4" ResourceName="UI/UISprites/Game/czjm_dna" />
+      <Asset Guid="19cd7049398516a4db2df6c845f2c51f" ResourceName="UI/UISprites/Card/kp_konglong_3" />
+      <Asset Guid="1aeb571c3b28f7047b7e52323f0c511f" ResourceName="UI/UISprites/EvoluTree/jhfz_kpshjd" />
+      <Asset Guid="1bf3c655b4c32994284f05382d209d72" ResourceName="UI/UISprites/Menu/kaishijiemian/shu_5" />
+      <Asset Guid="1c3ef6582ab34aa4c83fd4df2dea1fc2" ResourceName="Terrain/Terrain_2/moxing/dongwu/Jilong/spinoLP" />
+      <Asset Guid="1c62d9feb9569b44c8ed7a2f35c2abf9" ResourceName="Particle/ChangeSpecies/PolygonArsenal/Textures/polySpriteGlow" />
+      <Asset Guid="1d02024be867e544ca67b26a393c5809" ResourceName="Terrain/Terrain_2/moxing/dongwu/chushilong/PachyLP" />
+      <Asset Guid="1d3cfd9b98523274190a22619bdbdce0" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/stegLP" />
+      <Asset Guid="1eec3fd0b83e2e74dbe26f3359f71476" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/kentLowB" />
+      <Asset Guid="1f626618ad60be14299528649907b29e" ResourceName="Ani/donghua/menu/kaishi" />
+      <Asset Guid="1fee971f2e4a1fa478cb045e47727c78" ResourceName="Particle/ChangeSpecies/Change/jinhua/guangqiu" />
+      <Asset Guid="201cfda7616c0a64f881cbe2dacc71eb" ResourceName="Model/MushRoom/MoGu_2" />
+      <Asset Guid="20755d084122b41468bb0ec1aab0b74d" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/tricLowA" />
+      <Asset Guid="20cc6aa49f4804d44bbef3f5a2ad1cf4" ResourceName="Terrain/Terrain_2/moxing/Stone/Dshitou" />
+      <Asset Guid="2101e55a33471ab4aa4c81ef73fec39b" ResourceName="UI/UISprites/Card/kp_konglong_8" />
+      <Asset Guid="2102aba335ffdb8498f7e0b7802c11df" ResourceName="Terrain/Terrain_2/moxing/huacao/Honghuacao" />
+      <Asset Guid="21361286fc68e684890b7858dcb48aea" ResourceName="UI/UISprites/EvoluTree/jhfz_jintou_3" />
+      <Asset Guid="214e3b8c22cae79459c9e74027ee3d13" ResourceName="Particle/ChangeSpecies/PolygonArsenal/Materials/Rimlight/Solid/BlackHole/PolyBlackHoleOuterLayer" />
+      <Asset Guid="2189ad59b1f4bae40bd6f5b09f55c47d" ResourceName="Terrain/Terrain_2/moxing/grass001" />
+      <Asset Guid="21e5ca44b64316446badcb492ec6f044" ResourceName="Terrain/Terrain_2/moxing/shu/PERFAB/Gqianlvse" />
+      <Asset Guid="21fb164ee10f08841975fa58d60a5163" ResourceName="Terrain/Terrain_2/moxing/Materials/Dungeons_Texture_01" />
+      <Asset Guid="222dab49aff09c449819365e9cb85b70" ResourceName="UI/UISprites/Menu/kaishijiemian/tiankong" />
+      <Asset Guid="222dad9c6102d0444911b66c9bf20bf3" ResourceName="Terrain/sky/LF" />
+      <Asset Guid="22d90eea7759b524d82c16acc0997c01" ResourceName="UI/UISprites/Menu/kaishijiemian/yuanshiren" />
+      <Asset Guid="22d9bba044762bd459065db09f409a05" ResourceName="Terrain/Terrain_2/PolygonNature/TerrainAutoUpgrade/layer_GrassBaseGrass_normals2023054508611406" />
+      <Asset Guid="236433a27ce40a7429b87d14d8fa3035" ResourceName="UI/UISprites/Common/progress-conner" />
+      <Asset Guid="2372c82814ea2ed41aed3d611d81953d" ResourceName="Particle/LevelUp_2/Materials/PolygonParticleFX_Sparkle" />
+      <Asset Guid="23bd6c42a23df1f459135c6d0ec4ea68" ResourceName="Prefabs/Velociraptor" />
+      <Asset Guid="23f876cb7b059b746a56f5cf6375b41b" ResourceName="UI/UISprites/Box/bx_jinbi" />
+      <Asset Guid="2418c7178e817f34da4861b6baac39dd" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/styraLowPoly" />
+      <Asset Guid="246ed04916c683c41902778b09a6c07e" ResourceName="UI/UISprites/Card/kp_konglong_1" />
+      <Asset Guid="24ae975c570ba9845bb8c8e4fa7aa9b7" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/stegLowPoly" />
+      <Asset Guid="24ca310f92a6796408f1db7647ec4e55" ResourceName="UI/UISprites/Common/circle" />
+      <Asset Guid="24d4bd9b765199348b2e4022b7ca98ab" ResourceName="Terrain/Terrain_2/moxing/Materials/Dungeons_Texture_02" />
+      <Asset Guid="24f5363819a73bb428d5bdc74baf6252" ResourceName="Terrain/Terrain_2/moxing/shu/Ddanlvse" />
+      <Asset Guid="2525bc3feb876ee489eb29957e96cf3a" ResourceName="UI/UISprites/Failed/sb_dk" />
+      <Asset Guid="258a131c4f9ac1d429b3a4b1f8b6f93f" ResourceName="Terrain/Terrain_2/moxing/dongwu/Xiyi/dimeLP" />
+      <Asset Guid="265006166f649774ba406a03e9107cd8" ResourceName="Particle/ChangeSpecies/Change/jinhua/evolve" />
+      <Asset Guid="2698984a2749d80458765d68136fe2b6" ResourceName="Terrain/Terrain_2/moxing/shenlvse" />
+      <Asset Guid="2733ecba1d11a4247963df849c7e0b74" ResourceName="Terrain/Terrain_2/moxing/dongwu/Xiyi/dimeLP" />
+      <Asset Guid="288e53427e0ec564883b507e9fb9ea23" ResourceName="UI/UISprites/EvoluTree/Bg_JInHua" />
+      <Asset Guid="291b47500275f6a4eb9411043bba8362" ResourceName="Terrain/Terrain_2/moxing/shitou" />
+      <Asset Guid="2beeaa8094b7a8245bc4b3fb78d0a6fe" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/DimeLP_3" />
+      <Asset Guid="2c91b858e27bf8c45b491a6215e9ef0e" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/StegLP" />
+      <Asset Guid="2d040cdd4303003428ac2015d323c88d" ResourceName="Terrain/Terrain_2/moxing/Stone/Hshitou1" />
+      <Asset Guid="2d8d6786940f4ae44960b7f64120a84c" ResourceName="Terrain/Terrain_2/moxing/xiangshu3" />
+      <Asset Guid="2eb84df899ad7fc4aa3b987e587d5fcb" ResourceName="Particle/LevelUp_2/Textures/PolygonParticles_Fumes_04" />
+      <Asset Guid="2f0187b67cb0451438872277dcfbf58e" ResourceName="UI/UISprites/EvoluTree/jhfz_gjkp" />
+      <Asset Guid="2f22407c27671214aa72aa2668863a3a" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/tricLP" />
+      <Asset Guid="2f3f789aad8546a488298feff43c3082" ResourceName="Particle/ChangeSpecies/PolygonArsenal/Materials/Gradients/PolySpriteGlow_ADD" />
+      <Asset Guid="2f41c5bee59214944aeb3909b4718ea7" ResourceName="Terrain/Terrain_2/PolygonNature/Textures/Ground_Textures/Grass1" />
+      <Asset Guid="2f709dff479f6d84fa3626639bf1bf62" ResourceName="Terrain/sky/RT" />
+      <Asset Guid="3135a497321857e47b92b31dd7ac900b" ResourceName="Terrain/Terrain_2/moxing/dongwu/bawanglong/rexLP" />
+      <Asset Guid="315e8ed2db27c254cb3366ff0793cd90" ResourceName="DataTables/Music" />
+      <Asset Guid="31e6fd4c99614e64792ddc533d776936" ResourceName="UI/UISprites/Menu/huoshan/hsy_5" />
+      <Asset Guid="32645e5413509a543aa58867ffc9037a" ResourceName="Terrain/Terrain_2/moxing/shu/Ddanlvse" />
+      <Asset Guid="327016c8f59e67846a3455a794934d58" ResourceName="UI/UISprites/EvoluTree/jhfz_konglong_fenzhi_2" />
+      <Asset Guid="3337998f4a4e95a47bbffd7b97755b54" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/PachyLP" />
+      <Asset Guid="3371cdaaa6df14e4a9d41c92923188c4" ResourceName="Entities/Death_Particle" />
+      <Asset Guid="34260f387dffd3443b60f8548a9b6375" ResourceName="UI/UISprites/EvoluTree/jhfz_jintou_7" />
+      <Asset Guid="348014ac15d8e1f44b293ba5fdc6b979" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/iguaLowC" />
+      <Asset Guid="3486ebcabd6d780459344e722a308fbf" ResourceName="Terrain/Terrain_2/moxing/dongwu/bawanglong/BWanglong" />
+      <Asset Guid="352da872791696c48af3b21132e3e3c3" ResourceName="DataTables/UIForm" />
+      <Asset Guid="355fd59ab93b5d44a88fd3289e8d7bb4" ResourceName="Terrain/Terrain_2/moxing/di/1222221" />
+      <Asset Guid="357d53aa062ebb04e8e5aaa195e1a5a4" ResourceName="Particle/Death/PolygonParticleFX/Models/FX_Sphere_03" />
+      <Asset Guid="35975a61b2c575144ab59f257ee5bb76" ResourceName="Terrain/Terrain_2/moxing/huacao/Zihuacao" />
+      <Asset Guid="36418920a9d828b4baa83584914e16f5" ResourceName="UI/UISprites/EvolutionSceen/jhbj_xing_2" />
+      <Asset Guid="36684cc28b78fa5419f2b20d937bdb8c" ResourceName="Particle/ChangeSpecies/Change/jinhua/guangqiu_1" />
+      <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" ResourceName="DataTables/Sound" />
+      <Asset Guid="372ae975cf6643444ae1c6ef9cbd981f" ResourceName="Particle/LevelUp_2/Models/FX_Cylinder_01" />
+      <Asset Guid="3844c0b82fdfe2740a0ca18dd7479622" ResourceName="Terrain/Terrain_2/moxing/shu/huangshu" />
+      <Asset Guid="3856dc8dfc2f55c41aa6f68d1b08cfbf" ResourceName="Terrain/Rou/Materials/meat" />
+      <Asset Guid="389e0a3f094ac424288140997e68ca5b" ResourceName="Sounds/hit_Brachiosauru" />
+      <Asset Guid="391c2a1326d22f64e876309e95140812" ResourceName="Terrain/Terrain_2/moxing/shu/Dhongse" />
+      <Asset Guid="399499185ed46f34db599c3e47f04662" ResourceName="Terrain/Terrain_2/moxing/dongwu/Xiyi/Atlas_2" />
+      <Asset Guid="3aaabf8774d09564094a1603215df969" ResourceName="Model/MushRoom/mogu" />
+      <Asset Guid="3ac8680ee5c6e4447b12e018b2054d54" ResourceName="UI/UISprites/Card/kp_konglong_5" />
+      <Asset Guid="3acbcd9ee5e32e0429ae90f99ed71826" ResourceName="Entities/LevelUp_2" />
+      <Asset Guid="3b361e9da8e69744e973981f67b29d6e" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/protoLowPoly" />
+      <Asset Guid="3bc712f368908014c8c4fa1a05bd145e" ResourceName="Terrain/Terrain_2/moxing/Gshense" />
+      <Asset Guid="3be3fac3611f4584695662c4889f722d" ResourceName="UI/UISprites/Common/circle-outline" />
+      <Asset Guid="3c357f861a436a94cbd0853b7c029488" ResourceName="Terrain/Terrain_2/moxing/dongwu/Jilong/baryLP" />
+      <Asset Guid="3c3e9e98a1b0a1645969d4a5c1e0910d" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/tricLowPoly" />
+      <Asset Guid="3c72698cadb730b45ab10f90112f768d" ResourceName="Terrain/Terrain_2/moxing/Ddanlvse" />
+      <Asset Guid="3c90d6321ab4fc64b92f0f3c3a6393d6" ResourceName="Terrain/Terrain_2/moxing/Stone/perfab/Xshitou" />
+      <Asset Guid="3ccce67bd48bfcd459a2ef0393fdf83e" ResourceName="Particle/LevelUp_1/Textures/PolygonParticles_Sparkle" />
+      <Asset Guid="3f0c0fa176afe07488a2144bed873c92" ResourceName="Terrain/Terrain_2/moxing/shu/Gqianlvse" />
+      <Asset Guid="3f16b40906648a445974ec1e98f3babc" ResourceName="Terrain/Terrain_2/moxing/xiangshu1" />
+      <Asset Guid="3f54fcfdac53aec42ae18a6a1c6d8cb1" ResourceName="UI/UISprites/Common/checked" />
+      <Asset Guid="3fc11985609313445b0f3724c5667f16" ResourceName="Terrain/Terrain_2/moxing/shui/shui" />
+      <Asset Guid="3fc9afc691e18414bb325e737cfa1b60" ResourceName="Terrain/Terrain_2/moxing/shu/PERFAB/huangshu" />
+      <Asset Guid="409fbb732942027438884aaf06c2c532" ResourceName="UI/UISprites/EvoluTree/Bg_Dino" />
+      <Asset Guid="43b3ffd3909d1d84492c869ad67e276e" ResourceName="UI/UISprites/Menu/kaishijiemian/yanyun" />
+      <Asset Guid="43f19f4fb3f822444b4f13613fc289ff" ResourceName="Prefabs/Brachiosauru_1" />
+      <Asset Guid="441f44d1b06ab094db6256c6c2684d19" ResourceName="Terrain/Terrain_2/moxing/shu/PERFAB/Dhuamushen" />
+      <Asset Guid="444905c30259a8d4f910aa55df4f7093" ResourceName="Terrain/Terrain_2/moxing/huacao/cao" />
+      <Asset Guid="448c0e3b600d8a1429c9525f782f24c4" ResourceName="Model/FruiterTree/FruiterTree" />
+      <Asset Guid="44a5d40f3c4878d4ca7dce5cba1982e2" ResourceName="UI/UISprites/Game/czjm_xueliang_2" />
       <Asset Guid="44c8db52241385c45bbb14a1718f17bf" ResourceName="Configs" />
-      <Asset Guid="4a17d2c656f5c6b44a31e3ee547a76b0" ResourceName="DataTables" />
-      <Asset Guid="4c3865b2ac420cd46a9cde6ab468d016" ResourceName="Materials" />
-      <Asset Guid="4db6a299939bfe94893585eb387f577a" ResourceName="DataTables" />
-      <Asset Guid="4f688097e85071841a2c3ba165000c20" ResourceName="Textures" />
-      <Asset Guid="5282f20eba4d44213820e21af8481932" ResourceName="Meshes" />
-      <Asset Guid="56b8df63bbad60749a69e38bc687fadf" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="578af1667322bab45b652b79a40bb4fb" ResourceName="Materials" />
-      <Asset Guid="583ff7026dac91849b7c7b2468ba456b" ResourceName="Materials" />
-      <Asset Guid="5dcd89912e222bf4c87f76db4044bc5e" ResourceName="Localization/Dictionaries" ResourceVariant="ko-kr" />
-      <Asset Guid="62af9e5c8f39cfa49af9e10ccf42f1da" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="638ff8ae4a0d15047839cd265d3bc296" ResourceName="Music/Background" />
-      <Asset Guid="63fe6ff9ab9e1433f8db4ebd940f2442" ResourceName="Materials" />
-      <Asset Guid="64f3bb52c6a54854688fcc656af2b1c9" ResourceName="DataTables" />
-      <Asset Guid="6cbc2c323b77f804fb958fa4eca33998" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="6d9b42ac01f24bf4d98923573f103575" ResourceName="Textures" />
-      <Asset Guid="6db0c8354d868834abf29840037591b1" ResourceName="Textures" />
-      <Asset Guid="6e023ca4283b3a7469cd61d24c83048c" ResourceName="Textures" />
-      <Asset Guid="6e3730451fa077346abd4ac642ea71d8" ResourceName="Textures" />
-      <Asset Guid="6e5d026bf0652ed4380f6a66f4aa26c5" ResourceName="Textures" />
-      <Asset Guid="71646ebaae78d43aeb8b53cacdb69671" ResourceName="Textures" />
-      <Asset Guid="72e76810224064300b7d32e8322a5d12" ResourceName="Sounds" />
-      <Asset Guid="738bdf56857a65f479c367c7b62c4ad7" ResourceName="Entities" />
+      <Asset Guid="45362374f1bacde458d5c6947d2a180f" ResourceName="Model/Beetle/Materials/JiaKeChong" />
+      <Asset Guid="458179ce575751d48873fd1299ed4747" ResourceName="Terrain/sky/UP" />
+      <Asset Guid="4603e5d7751d8c947987963bb15d1362" ResourceName="UI/UISprites/Game/czjm_aixin_1" />
+      <Asset Guid="463610878a2084744af6df51c7089f1e" ResourceName="UI/UISprites/TreeSpecies/jhfz_konglong_5" />
+      <Asset Guid="4682e0aae2feac244a797d8c7e484d88" ResourceName="Model/Guoshi/GuoShi" />
+      <Asset Guid="4692015cac7fe0d49b5a06b9e131e76b" ResourceName="Entities/Triceratops" />
+      <Asset Guid="469a2f2fec35bc147bc1aee051676d6a" ResourceName="Entities/Brachiosauru" />
+      <Asset Guid="46fb0cad23de45a47bb98c2af865b2ca" ResourceName="Terrain/Terrain_2/moxing/NewTerrain_2" />
+      <Asset Guid="46ff6cfc42dfc7849b840c4042007e6a" ResourceName="Entities/MushRoom" />
+      <Asset Guid="481f0339d84155a4a8d9cdeca3afaa0f" ResourceName="Terrain/Terrain_2/PolygonNature/Textures/Ground_Textures/tuse" />
+      <Asset Guid="485b2907e292e48469f1151ab3e21e32" ResourceName="Prefabs/Spinosaurus" />
+      <Asset Guid="489d9220e2129f146a38e3953ac37eb1" ResourceName="Sounds/levelUp" />
+      <Asset Guid="48ab8102a9b6458499f84eb55d5b9da6" ResourceName="UI/UISprites/Menu/kaishijiemian/yinying_2" />
+      <Asset Guid="49eef2765dd9aa4408d454a9669cbd15" ResourceName="UI/UISprites/TreeSpecies/jhfz_konglong_8" />
+      <Asset Guid="49fd2e2e18971f64dbf376aa68a711d7" ResourceName="Sounds/hit_Triceraptor" />
+      <Asset Guid="4a70d571b7063bd418fa9a9a4d331d78" ResourceName="UI/UIForms/AwardForm" />
+      <Asset Guid="4a8443e9fe4f9ad4993a68b0102c4f3e" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/TrooLP" />
+      <Asset Guid="4acf67ade5227f845a0d68269b8e77c0" ResourceName="Terrain/Terrain_2/moxing/shitou1" />
+      <Asset Guid="4ae836d73afc0af46b5ac80aabfd4a45" ResourceName="Terrain/Terrain_2/moxing/Stone/Hshitou4" />
+      <Asset Guid="4ba441423db975848b04f7b3f3e9f6e6" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/BWL_3" />
+      <Asset Guid="4c2789e280a8e5a4bb9b2112f77777bc" ResourceName="Terrain/Terrain_2/moxing/dongwu/Jilong/baryLP" />
+      <Asset Guid="4c5f13e6a6061214697a61fa94a0e19c" ResourceName="Particle/LevelUp_2/Materials/PolygonParticleFX_Fumes_01" />
+      <Asset Guid="4c81a371fed43d24f9d33de8f9c4a61d" ResourceName="Terrain/Terrain_2/moxing/huacao/honghua" />
+      <Asset Guid="4cc27e0cfadb9c4448098832b46100df" ResourceName="Entities/Troodon_Player" />
+      <Asset Guid="4f294817ad6478a4eb2cb74ba064645b" ResourceName="Terrain/sky/FR" />
+      <Asset Guid="4f43bcc1a15db6c4bbf844ef92dc7e7e" ResourceName="Terrain/Terrain_2/moxing/Dhuamuqian" />
+      <Asset Guid="4f6d7cf89491900488ad9d182198c6c9" ResourceName="Sounds/attack_Player" />
+      <Asset Guid="4f721622a58ae1540a6aef6145a73cae" ResourceName="Model/Beetle/JiaKeChong" />
+      <Asset Guid="4f84cc5456ed43642b6ec49ff0d83131" ResourceName="Ani/donghua/huoshan/huoshan" />
+      <Asset Guid="4fd499313e32334449aa749b39708bbd" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/tricLP" />
+      <Asset Guid="50639a348d64e804aa58808f6a222acc" ResourceName="UI/UISprites/Menu/kaishijiemian/yanshi" />
+      <Asset Guid="507d189840d51464a9a4067cbe1b972d" ResourceName="UI/UISprites/Card/kp_konglong_4" />
+      <Asset Guid="50b8ef35c7847c249baf028276b3ab60" ResourceName="UI/UIForms/ChoiceForm" />
+      <Asset Guid="525a890124d1381408f8ca8be1d1594e" ResourceName="Terrain/Terrain_2/moxing/dongwu/Jilong/rapLowA" />
+      <Asset Guid="528f81650959ff244abeacd3ef702d21" ResourceName="UI/UISprites/Common/ty_anniu_2" />
+      <Asset Guid="52a08c6c3169bdb4e9e8c9f94561e97c" ResourceName="UI/UIForms/FailedForm" />
+      <Asset Guid="53779a02d7debe64f89cad0fcff1f866" ResourceName="Terrain/Terrain_2/moxing/shu/shenlv" />
+      <Asset Guid="53fbdeb080b0ed24db1537ccafff686d" ResourceName="UI/UISprites/EvoluTree/Bg_All" />
+      <Asset Guid="54c4e0356e5f439428c4e830eb4f27bc" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/iguaLP" />
+      <Asset Guid="556efb4cc383aa949b793a5b14e3dd00" ResourceName="Prefabs/Carnotaurus" />
+      <Asset Guid="56a715a8175cd6d49b87112d6b8c46c9" ResourceName="Prefabs/Protoceratops" />
+      <Asset Guid="56ab5b531a8d3ac468159660299936ee" ResourceName="UI/UISprites/EvoluTree/jhfz_zhiren_3" />
+      <Asset Guid="56b8df63bbad60749a69e38bc687fadf" ResourceName="UI/UISprites/Common/circle-filled" />
+      <Asset Guid="56d9a51ee443a9b44b622e8fa635de44" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/kentLP" />
+      <Asset Guid="571d5ce906544634f93dd244d6b439e3" ResourceName="Terrain/Terrain_2/moxing/Dungeons_Texture_02" />
+      <Asset Guid="57401ab7c818185468625f9f300d8cda" ResourceName="UI/UISprites/Game/czjm_aixin_3" />
+      <Asset Guid="58526fa1797de2e4ca365bff47a1ea43" ResourceName="Terrain/Terrain_2/moxing/lvshu" />
+      <Asset Guid="5a3412cc933983b4d8d19c9dd916dd46" ResourceName="UI/UISprites/Card/kp_kuang_3" />
+      <Asset Guid="5a34253a590f7cb468cb6c6fcf021a3d" ResourceName="UI/UISprites/EvoluTree/jhfz_suo" />
+      <Asset Guid="5a576bd4847cb8c4e894fdbf57832fe3" ResourceName="Terrain/Rou/zhiwu/Rou_2" />
+      <Asset Guid="5aa0bcebe9dcfbc429a787b072929a16" ResourceName="UI/UISprites/Game/czjm_xueliang_3" />
+      <Asset Guid="5af7fa5a9e276384da6e4a3ef0760443" ResourceName="UI/UISprites/Game/czjm_baoxiang" />
+      <Asset Guid="5b02dbf5ac7235c49b846e4c12304acb" ResourceName="UI/UIItems/DNAItem" />
+      <Asset Guid="5c10ce71695edd0429d497bd95d3b716" ResourceName="UI/UISprites/Common/ty_ksp" />
+      <Asset Guid="5c22adb5e0a8df14280883f32dd74522" ResourceName="Terrain/Terrain_2/moxing/huacao/PERFAB/Hhuacao" />
+      <Asset Guid="5c8b2d3300d69654fb4659ff5b4fce1e" ResourceName="Prefabs/Stegosaurus" />
+      <Asset Guid="5dcd89912e222bf4c87f76db4044bc5e" ResourceName="Localization/Korean/Dictionaries/Default" />
+      <Asset Guid="5dfcbe4016e1d784ebbad3bb54b4e249" ResourceName="UI/UISprites/Box/bx_jdt_2" />
+      <Asset Guid="5f08e7ad94073024ea9b8810f76128b1" ResourceName="Terrain/Terrain_2/moxing/dongwu/Xiyi/Atlas" />
+      <Asset Guid="602d928d0ed4e8548bc673189de7ee5b" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/stegLP" />
+      <Asset Guid="61953f2ebf17f5a4b99d4c09e9ee83f9" ResourceName="Terrain/Terrain_2/moxing/shui/Materials/Water_Pool_Light_1" />
+      <Asset Guid="62af9e5c8f39cfa49af9e10ccf42f1da" ResourceName="UI/UISprites/Common/round-button-outline" />
+      <Asset Guid="63328e96c66f37a4294b3cd9dd63cdc1" ResourceName="Terrain/Terrain_2/moxing/cao" />
+      <Asset Guid="637586d6aa3f0e44eb55b666e913924a" ResourceName="Terrain/Terrain_2/moxing/Materials/mine_ore_tga" />
+      <Asset Guid="65405d23c9794014c9080e2cfd5f3d7b" ResourceName="Meshes/PanelMat" />
+      <Asset Guid="65a4e5844d26fdf4d9d319ad2dd50b2a" ResourceName="Model/DinanoEgg/DinosaurEgg_Enemy" />
+      <Asset Guid="65cb8ce9f471802459a227533b1f83b0" ResourceName="UI/UISprites/Card/kp_kuang_wjs" />
+      <Asset Guid="665749966433aec41bd38fe193a1a486" ResourceName="Terrain/Terrain_2/moxing/dongwu/Jilong/spinoLP" />
+      <Asset Guid="688d15c4b58093d458d670a238542ea5" ResourceName="Particle/ChangeSpecies/Change/jinhua/quanMar" />
+      <Asset Guid="698987019c4689a41b38383761d543c9" ResourceName="Particle/ChangeSpecies/PolygonArsenal/Models/PolySphereMega2" />
+      <Asset Guid="6a9cd70365d2bd042b3ecc2bf79009ea" ResourceName="DataTables/Enemy" />
+      <Asset Guid="6ac9b478c8af20743b5c73f2717293f3" ResourceName="Entities/Oviraptor_Player" />
+      <Asset Guid="6b018fe9e48b8934997f088e52a038d2" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/protoLP" />
+      <Asset Guid="6b831d1048e1a9a43af231782a69b8e8" ResourceName="Entities/Rou_2" />
+      <Asset Guid="6c148f9d677cb604a9ed3beedd741cf0" ResourceName="UI/UISprites/Menu/kaishijiemian/feilong" />
+      <Asset Guid="6cbc2c323b77f804fb958fa4eca33998" ResourceName="UI/UISprites/Common/line" />
+      <Asset Guid="6ce91165635454c4481f2fa65a25e716" ResourceName="UI/UISprites/TreeSpecies/jhfz_konglong_3" />
+      <Asset Guid="6d05b250218a45546ae025a832a273c5" ResourceName="UI/UISprites/Box/bx_jdt_1" />
+      <Asset Guid="6d723e7c4a7fda2408e26eb09233a0f1" ResourceName="UI/UISprites/Menu/kaishijiemian/dimian" />
+      <Asset Guid="6de82ad61b5118449843501a7e264070" ResourceName="UI/UISprites/Menu/huoshan/hsy_1" />
+      <Asset Guid="6e7c459b29230844aa5c1b24d5f8b5b7" ResourceName="UI/UISprites/Menu/huoshan/hsy_2" />
+      <Asset Guid="6ece856346bd6e24da69f24f6b2b1980" ResourceName="Terrain/Terrain_2/moxing/newMar" />
+      <Asset Guid="6f1b67c0346b47a4cbe9c0fe344968cb" ResourceName="Scenes/Main" />
+      <Asset Guid="6fddb46842288ce45bac0f4bd1c06029" ResourceName="Terrain/Terrain_2/PolygonNature/Textures/Ground_Textures/Grass_02" />
+      <Asset Guid="70233f6f22d2c8541a875947b70a5d45" ResourceName="Terrain/Terrain_2/moxing/TerrainData_991f502a-197e-43f2-a9a2-6456a7001341" />
+      <Asset Guid="702f26cd5ff00fc46954b2176de0fc6d" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/styraLP" />
+      <Asset Guid="70360f4a616f61246a44495ba7c306c6" ResourceName="Terrain/Terrain_2/moxing/Dshense" />
+      <Asset Guid="7039823a2d61c5b4a9bc55adb91b8dc9" ResourceName="Entities/Styracosaurus_Player" />
+      <Asset Guid="72606ab984fc6c4458252a9c7d7c960a" ResourceName="UI/UISprites/Menu/huoshan/hsy_8" />
+      <Asset Guid="726397b58965af24e94727e41b5e2979" ResourceName="UI/UISprites/Menu/kaishijiemian/laohu" />
+      <Asset Guid="73e518d5284be264481dc9a8a30dbda0" ResourceName="Terrain/Terrain_2/moxing/dixing/dixing" />
+      <Asset Guid="75385acd295065147924b03a90536b9d" ResourceName="UI/UISprites/EvoluTree/jhfz_qrdk" />
+      <Asset Guid="7590cc1f98d995344969943ed7424d98" ResourceName="UI/UISprites/EvoluTree/Bg_Sure" />
+      <Asset Guid="759f961b73dcab84f98c67e9eaa2525f" ResourceName="Terrain/Terrain_2/moxing/di/1222221" />
+      <Asset Guid="75ba8d53a47dd554a83f5a4b9fc6e306" ResourceName="UI/UISprites/TreeSpecies/jhfz_kun_5" />
+      <Asset Guid="7674a8dddb21bf04ca4650bf7c3336be" ResourceName="Terrain/Terrain_2/moxing/shu/qianlvshu" />
+      <Asset Guid="775d38a6c2c170d4a8b8dfcb16b84b05" ResourceName="Terrain/Terrain_2/moxing/Materials/Dungeons_Texture_03" />
       <Asset Guid="77cbb7c5404c10242ab59953e0746314" ResourceName="Fonts" />
-      <Asset Guid="7d5f7699d6d1d48e485ac71126e12061" ResourceName="Entities" />
-      <Asset Guid="7e91cd9bad7babf4b975882a4b7453cb" ResourceName="Textures" />
-      <Asset Guid="7eae0d2701845a54aa570b07c55dab44" ResourceName="Textures" />
-      <Asset Guid="7f5aee8da226edf4991598327cb32ce0" ResourceName="UI/UISprites/Logos" />
+      <Asset Guid="7832c958d56341c4e96819d3614bc63b" ResourceName="UI/UISprites/Box/bx_baoxiang_2" />
+      <Asset Guid="784e554ae69e9234e901187a398ebef3" ResourceName="UI/UISprites/EvoluTree/jhfz_biaoti" />
+      <Asset Guid="788b4ca68ed84d74d9d946d3839b465a" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/styraLP" />
+      <Asset Guid="78a2f1bb830b30e45aee05b6568c67a8" ResourceName="Terrain/Terrain_2/moxing/shu/xiangshu2" />
+      <Asset Guid="7971ae9b77ac13246a40909c3b1cc1d5" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/BaryLP" />
+      <Asset Guid="7992d276b9947ea469cdd4a2abd05c4a" ResourceName="Terrain/sky/sky" />
+      <Asset Guid="7b0af206ce44270448426553aa6c0a6e" ResourceName="UI/UISprites/Card/kp_kuang_2" />
+      <Asset Guid="7b95e8a0a982b7f4da7ec8548dfe0793" ResourceName="DataTables/Player" />
+      <Asset Guid="7bfa717c06cd39a4caa982d7615971fe" ResourceName="Particle/LevelUp_1/Prefabs/LevelUp_1" />
+      <Asset Guid="7c098b2db8689f842898762f5889fd2b" ResourceName="UI/UIForms/GameForm" />
+      <Asset Guid="7c0df620aca9e44459cf600309737a3c" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/styraLowA" />
+      <Asset Guid="7cc3cb82a3550ee459d9381b7fb0919a" ResourceName="Terrain/Terrain_2/moxing/huacao/Materials/Plants_Texture" />
+      <Asset Guid="7d69453af72bb9244b450cb30c90fcae" ResourceName="UI/UISprites/EvoluTree/Bg_Fish" />
+      <Asset Guid="7e82cde28ef213d4ebb78c1d8d1bc5fb" ResourceName="UI/UISprites/Game/czjm_jinbi" />
+      <Asset Guid="7ef023babeff31c45bb771e55c91747c" ResourceName="DataTables/Player" />
+      <Asset Guid="7ef6c3bca942d5047a1db1737038d2d4" ResourceName="Model/Guoshi/GuoShi" />
+      <Asset Guid="7f5774eea89f86c4f86b92b5250eacc0" ResourceName="Terrain/Terrain_2/moxing/dongwu/Xiyi/dimeLowPoly" />
+      <Asset Guid="7f5aee8da226edf4991598327cb32ce0" ResourceName="UI/UISprites/Logos/unity-logo" />
       <Asset Guid="7fd11dc5d29076d469d414dec2818f11" ResourceName="Configs" />
-      <Asset Guid="834bfaee90a9d4e04b1e8c1ca22cc88e" ResourceName="Entities" />
-      <Asset Guid="836be25be3e1e8c41ae5545bc8a9a4d7" ResourceName="Textures" />
-      <Asset Guid="8940b037a9b441c4cbd3d2b446838424" ResourceName="Materials" />
-      <Asset Guid="8b1acacd22538f34cb85287a0781ea5e" ResourceName="DataTables" />
-      <Asset Guid="8cf749fdfa5edc3478d16893efeaa0eb" ResourceName="Entities" />
-      <Asset Guid="8e114ded6a865324588170636872943c" ResourceName="DataTables" />
-      <Asset Guid="8e27380ee68aa4a219b4db9018e7da31" ResourceName="Materials" />
-      <Asset Guid="9143e2b62ad50488482f9b73672fc331" ResourceName="Entities" />
-      <Asset Guid="955000b4d1441470e8cbf94f483228b5" ResourceName="Materials" />
-      <Asset Guid="97b1f8b25cca2bc458cb9d6127c8d186" ResourceName="Materials" />
-      <Asset Guid="97d117308cf86924289e81e7e71dd5dd" ResourceName="DataTables" />
-      <Asset Guid="9afa958d6d8235941b9badb42aae4370" ResourceName="Meshes" />
-      <Asset Guid="9b433f0bb7fef6f4085c316a0d88c307" ResourceName="DataTables" />
-      <Asset Guid="9be2e1e45f4edd74c8764538ad306b78" ResourceName="Localization/Dictionaries" ResourceVariant="zh-cn" />
-      <Asset Guid="9c3961f379234354e813d7b38146424d" ResourceName="DataTables" />
-      <Asset Guid="9c3faac13c8ced84a9f3018303b7bb98" ResourceName="DataTables" />
-      <Asset Guid="9ddab293e2a8af3499dac05f5fd6169c" ResourceName="Meshes" />
-      <Asset Guid="9f847ec5e66e03e4ead1d3c5f7b510e8" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="a019ae3af8e864616b85773c509f5285" ResourceName="Sounds" />
-      <Asset Guid="a23eef5e20ff8cb46adf33491fc443fb" ResourceName="Materials" />
-      <Asset Guid="a33e23ae848110243820cda82120b105" ResourceName="DataTables" />
-      <Asset Guid="a6d58f54ce5934781962a4f887e834f3" ResourceName="Entities" />
-      <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" ResourceName="DataTables" />
-      <Asset Guid="a7b030cffa2dc44478c14e49a22771c2" ResourceName="Materials" />
-      <Asset Guid="a8c07bbe04fdaf04b80e27f651a8edd6" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="ab45c3f613f388d43bbf43ec05eb92e2" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="ab4774faf71b57a40a29a9e902403fe3" ResourceName="DataTables" />
-      <Asset Guid="abd1565e9e268f04cac3631d022b4ace" ResourceName="Entities" />
-      <Asset Guid="ad56aae2bb0f2ce4a86711287e14e223" ResourceName="DataTables" />
-      <Asset Guid="ae6a7f967521769458b0913fa39caaf4" ResourceName="Textures" />
-      <Asset Guid="afc18fc39ade3744397c0c993b57be53" ResourceName="Entities" />
-      <Asset Guid="b031b4f2980561542a7f7ba41391edc3" ResourceName="Scenes" />
-      <Asset Guid="b0c7cf51d3fecb446ab93bf854419715" ResourceName="Materials" />
-      <Asset Guid="b2cebe04343227945bab3729ca9a3493" ResourceName="DataTables" />
-      <Asset Guid="ba157ba55f72c424a9e88f3c029997c4" ResourceName="Textures" />
-      <Asset Guid="baedbbad82997f445a8cb4da210404e0" ResourceName="Meshes" />
-      <Asset Guid="bbfd75fe6fe00e1448fe988173ede7f9" ResourceName="UI/UIForms" />
-      <Asset Guid="bf75b984df8a84987bcf3a8bf6e2862d" ResourceName="Sounds" />
-      <Asset Guid="c547624e174de984882f0a14b4bb32e1" ResourceName="Materials" />
-      <Asset Guid="c58c9afddbd36d14d837fa218d772996" ResourceName="Materials" />
-      <Asset Guid="c7d1e11dd37634b48a9dd4012b8e4306" ResourceName="UI/UISounds" />
-      <Asset Guid="caa829ab2ffc71340a69253afdf58365" ResourceName="Music/Menu" />
-      <Asset Guid="cadd0764941c8b646ae79b51d0ea8285" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="cfe53cf384344bd47a8680f8c5f97a7b" ResourceName="DataTables" />
-      <Asset Guid="d9808401c68af274a8edfbed3d1b53c7" ResourceName="Meshes" />
-      <Asset Guid="db58965402f12ed47b4dad61a9e48c9d" ResourceName="UI/UISprites/Icons" />
-      <Asset Guid="e0792649e7774a24d8e7cceba0231c61" ResourceName="DataTables" />
-      <Asset Guid="e5ca26c53b6ab8a46b52817008d7c7fa" ResourceName="UI/UISprites/Icons" />
-      <Asset Guid="e82837c9099f69a48b48fc44eb8d119d" ResourceName="UI/UISprites/Common" />
+      <Asset Guid="800b96a02a7f6bf44a1d4a0240607e69" ResourceName="Terrain/Terrain_2/moxing/qianlvse" />
+      <Asset Guid="82973719257914c49892d47c5619fab4" ResourceName="UI/UISprites/EvoluTree/jhfz_jujd" />
+      <Asset Guid="82f66501bbe1f094e85dbb1c050a2c14" ResourceName="UI/UISprites/Menu/kaishijiemian/shu_1" />
+      <Asset Guid="830f26202f38e2a4cad74d15bbe96e66" ResourceName="Terrain/Terrain_2/moxing/huacao/PERFAB/cao" />
+      <Asset Guid="83b366b237e50cd44b53c630b93ea763" ResourceName="Terrain/Terrain_2/moxing/shu/Gshenlvse" />
+      <Asset Guid="84349b1d050385f4489a44d9ad16f179" ResourceName="UI/UISprites/EvoluTree/jhfz_jdt_1" />
+      <Asset Guid="844a032f5b9873b4688dfe83285c3560" ResourceName="Terrain/Terrain_2/moxing/shu/Dhuamushen" />
+      <Asset Guid="84994824e0f28d04595e54629dd6572e" ResourceName="Terrain/Terrain_2/moxing/Dungeons_Texture_04" />
+      <Asset Guid="84b16e3de3e35a54f8f201a7636804ee" ResourceName="Terrain/Terrain_2/moxing/huacao/cao" />
+      <Asset Guid="84d07a7ec29f7e2449e1628eee7d6231" ResourceName="Terrain/Terrain_2/moxing/huacao/cao" />
+      <Asset Guid="84e39b4d602bef54f8c5cc1f4148aa89" ResourceName="UI/UISprites/Game/yxjm_yaogan_2" />
+      <Asset Guid="852dbe9e3df75ec4d9f78f4f009d74cc" ResourceName="Terrain/Terrain_2/moxing/Dungeons_Texture_03" />
+      <Asset Guid="8532c29d93860e44a9abd9d5fe5b5daa" ResourceName="UI/UISprites/Menu/kaishijiemian/konglong" />
+      <Asset Guid="863bfb9b995844646a50222cde38efe4" ResourceName="Terrain/Terrain_2/moxing/dongwu/Jilong/spinoLowPoly" />
+      <Asset Guid="8674a30680ff3e84c8a5c6cf9dbbb9d6" ResourceName="Model/Beetle/JiaKeChong_yellow" />
+      <Asset Guid="86923d8cd2faf04478c65e702986de78" ResourceName="Terrain/Terrain_2/moxing/Dungeons_Texture_01" />
+      <Asset Guid="87941250af70bc74a867b8b2521249d2" ResourceName="Terrain/Terrain_2/moxing/dongwu/bawanglong/rexLowB" />
+      <Asset Guid="87b44fec41b833f47a3764f7ce8bab51" ResourceName="Ani/donghua/menu/kaishi" />
+      <Asset Guid="88b5ecbf93d2fe043979b725adcd84c7" ResourceName="Entities/Brachiosauru_Player" />
+      <Asset Guid="88db7161ce345614ea3c7b6d55016e08" ResourceName="UI/UISprites/EvoluTree/jhfz_qrsd" />
+      <Asset Guid="8bdb13c76265d424a8a50138288d2847" ResourceName="Terrain/Terrain_2/moxing/Sand2" />
+      <Asset Guid="8c36a44e55473c14e8c1ec4c728d0aff" ResourceName="UI/UISprites/Game/czjm_dengji_2" />
+      <Asset Guid="8c7c3f488ec636c458f52fea2d4b3502" ResourceName="Terrain/Terrain_2/moxing/dongwu/Jilong/rapLP" />
+      <Asset Guid="8ca8310c9af17864f897ccad94b0d7ab" ResourceName="Particle/ChangeSpecies/PolygonArsenal/Textures/guang1" />
+      <Asset Guid="8d30e3097be277f4886ea83681767b3e" ResourceName="UI/UISprites/Box/bx_baoxiang_4" />
+      <Asset Guid="8e114ded6a865324588170636872943c" ResourceName="DataTables/UISound" />
+      <Asset Guid="8ebd765c460bc9742bae32dcb894e8e1" ResourceName="Entities/Carnotaurus_Player" />
+      <Asset Guid="8ed01ba1bd414bd4f85e23b915ec3c20" ResourceName="Entities/Triceratops_Player" />
+      <Asset Guid="8ee4e860d02d49f40a4efd3dd7ed18c1" ResourceName="Ani/donghua/Title/TitleIcon" />
+      <Asset Guid="8ef866ca8252fa5409c5dd658b344209" ResourceName="DataTables/Level" />
+      <Asset Guid="8fee6a5126e778544b56bac00e0d8dcd" ResourceName="Terrain/Rou/prefabs/Rou_1" />
+      <Asset Guid="8ff692e97997f8147820d1694939caf7" ResourceName="Terrain/Terrain_2/moxing/dongwu/chushilong/TrooLP" />
+      <Asset Guid="900c3e0d407cb194bb62ff7675412503" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/ProtoLP" />
+      <Asset Guid="90297bcd394aade4ab3a474c7f2b94c5" ResourceName="Terrain/Rou/meat" />
+      <Asset Guid="907ae87e083cc864a88c17e64a34b994" ResourceName="UI/UISprites/Game/czjm_zanting" />
+      <Asset Guid="9225321ee2c24f548a0ef9d7c0fdfe17" ResourceName="Terrain/Terrain_2/moxing/dongwu/bawanglong/rexLowPoly" />
+      <Asset Guid="929023ab7e9754f408aaa9f98723dd4b" ResourceName="UI/UISprites/Box/bx_dk" />
+      <Asset Guid="92f670203f24f524f96a653b2b75207e" ResourceName="Terrain/Terrain_2/moxing/gutou/guzhu" />
+      <Asset Guid="941eae0f514ada446b97c9444ac61177" ResourceName="UI/UISprites/Menu/kaishijiemian/shu_6" />
+      <Asset Guid="94400067067adcd47853b25aee7545ac" ResourceName="UI/UISprites/Menu/huoshan/hsy_6" />
+      <Asset Guid="945954c1d3533f3428120f99e1cd6869" ResourceName="Terrain/Terrain_2/moxing/dixing/dixing" />
+      <Asset Guid="947a4d01ddfcc674c99f01cfdce6ef99" ResourceName="Terrain/Terrain_2/moxing/shu/PERFAB/xiangshu4" />
+      <Asset Guid="94b03f32ee749d34fb0b2120cd4c42c6" ResourceName="Terrain/Terrain_2/moxing/huacao/Materials/Plants_Texture_tga" />
+      <Asset Guid="96d8e59581730b845a088eab856346a9" ResourceName="UI/UISprites/Menu/kaishijiemian/yun2" />
+      <Asset Guid="97006f6f07f8615409dc3765566e4609" ResourceName="Terrain/Terrain_2/moxing/shu/xiangshu4" />
+      <Asset Guid="973d0de9b993b834ebc882a765490108" ResourceName="UI/UISprites/TreeSpecies/jhfz_konglong_9" />
+      <Asset Guid="97d117308cf86924289e81e7e71dd5dd" ResourceName="DataTables/Entity" />
+      <Asset Guid="989a4a658b10355438d1782285195b58" ResourceName="UI/UISprites/TreeSpecies/jhfz_konglong_2" />
+      <Asset Guid="98ab688211ed37442b43508777e88120" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/iguaLowPoly" />
+      <Asset Guid="98c2cb3a48b9fc849ae1b47e397eaece" ResourceName="Particle/LevelUp_2/Materials/PolygonParticleFX_HalfCircle" />
+      <Asset Guid="98d1004689c93a746bfe8935bc2e507e" ResourceName="UI/UISprites/EvoluTree/jhfz_tu_biaoti" />
+      <Asset Guid="98d8fd8e7ce4ac8479d797b03b039f6d" ResourceName="Model/Beetle/JiaKeChongRun" />
+      <Asset Guid="9a4c78a90dfe5d445be21d7ca62475d9" ResourceName="Terrain/Terrain_2/moxing/shu/Gzhonglvse" />
+      <Asset Guid="9a6bdf7a6d1f1c149bbdd39ca47c32d2" ResourceName="Entities/Brachiosauru_Player2" />
+      <Asset Guid="9b02ce06ab6a01947bb97c37bc80bb9b" ResourceName="Terrain/Terrain_2/moxing/Tree" />
+      <Asset Guid="9b1117ae7feceed4ea37cbc02d95352b" ResourceName="Model/Beetle/Materials/JiaKeChong_green" />
+      <Asset Guid="9b3604f2476595f41a14c0cc71ec3691" ResourceName="Terrain/Terrain_2/moxing/xiangshu2" />
+      <Asset Guid="9b433f0bb7fef6f4085c316a0d88c307" ResourceName="DataTables/Music" />
+      <Asset Guid="9b489e16a6ceaf04b869bdf32e538afd" ResourceName="Terrain/Terrain_2/moxing/Stone/Hshitou3" />
+      <Asset Guid="9babc0c39c2f5f540ab51b8f87400f76" ResourceName="UI/UISprites/Menu/kaishijiemian/yun1" />
+      <Asset Guid="9bd1a6fc59bea694d98da5c05260fbd3" ResourceName="Terrain/Terrain_2/moxing/dongwu/Jilong/baryLowPoly" />
+      <Asset Guid="9be2e1e45f4edd74c8764538ad306b78" ResourceName="Localization/ChineseSimplified/Dictionaries/Default" />
+      <Asset Guid="9c3faac13c8ced84a9f3018303b7bb98" ResourceName="DataTables/Sound" />
+      <Asset Guid="9c8b2f278c4f3ef488e82f8fb27fec6f" ResourceName="Terrain/Terrain_2/moxing/Gqianse" />
+      <Asset Guid="9dfb40c547807d74091a179e88fb48b6" ResourceName="Terrain/Terrain_2/moxing/dixing/SplatAlpha0" />
+      <Asset Guid="9e59dcac095e54d49ace472e56675ca9" ResourceName="Ani/donghua/huoshan/huoshan" />
+      <Asset Guid="9e7c768df7600154692d816caf202f32" ResourceName="Terrain/Terrain_2/moxing/huacao/cao" />
+      <Asset Guid="9e7d859e39216f24e9f52dd4361ea9f5" ResourceName="UI/UISprites/EvoluTree/jhfz_jintou_6" />
+      <Asset Guid="9efe35cbfa34beb488ac8e7caa2b8f52" ResourceName="UI/UISprites/Box/bx_gxhd" />
+      <Asset Guid="9f2ad360565cf114b85d06eb359cbdad" ResourceName="Entities/GuoShi" />
+      <Asset Guid="9f300e7c3d54e0e40a9b4ef1fcaf95ea" ResourceName="Terrain/Terrain_2/moxing/shu/shugandao" />
+      <Asset Guid="9f847ec5e66e03e4ead1d3c5f7b510e8" ResourceName="UI/UISprites/Common/button-filled" />
+      <Asset Guid="a00b073e6eb90d74ab14230218ed4b20" ResourceName="Terrain/sky/BK" />
+      <Asset Guid="a14f2ff71aa90944a9812051ff48ee30" ResourceName="Terrain/Terrain_2/moxing/shu/Texture_01" />
+      <Asset Guid="a17a033a526c6e84c8a6791b7f8eda28" ResourceName="Entities/TyrannosaurusRex_Player2" />
+      <Asset Guid="a2198186697eaa04487f0bd8594ab856" ResourceName="UI/UISprites/EvoluTree/Bg_Evo" />
+      <Asset Guid="a252b8453c12c2b4db61da913203a3d6" ResourceName="Terrain/Terrain_2/moxing/Materials/Blocks_Color" />
+      <Asset Guid="a2a5b75eefa91f042b5310a90f30e76a" ResourceName="Terrain/Terrain_2/moxing/Materials/Texture_01" />
+      <Asset Guid="a2e1c7cb2e6a0424fb6043185c0419ae" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/kentLP" />
+      <Asset Guid="a33937b55f9bdbd42a808b4a0f9ecd4e" ResourceName="Terrain/Terrain_2/moxing/Stone/Xshitou" />
+      <Asset Guid="a33e23ae848110243820cda82120b105" ResourceName="DataTables/UIForm" />
+      <Asset Guid="a36a6f1e597a3504eac500c546827b16" ResourceName="UI/UISprites/Menu/kaishijiemian/guangdian" />
+      <Asset Guid="a53d197cd6876a04cb308d4c3a6a9cab" ResourceName="Terrain/sky/DN" />
+      <Asset Guid="a5d86cf05c285044a887cc9bbadd780d" ResourceName="UI/UISprites/Game/czjm_shuzi" />
+      <Asset Guid="a66b50962fb453344abbb18db4a3e39b" ResourceName="Model/Beetle/JiaKeChong_green" />
+      <Asset Guid="a66ec8a8d28b05a49a7d805cdf63eec8" ResourceName="Terrain/Terrain_2/moxing/dongwu/bawanglong/rexLowC" />
+      <Asset Guid="a6c731de80e9d824d8f657301a357269" ResourceName="UI/UIForms/UpdateResourceForm" />
+      <Asset Guid="a6ca190f16d2f0547a27f17ab856cc75" ResourceName="UI/UISprites/Common/ty_anniu_1" />
+      <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" ResourceName="DataTables/Scene" />
+      <Asset Guid="a74cb95ded55bb745a2fc429b24b3ab4" ResourceName="Terrain/Terrain_2/moxing/shu/PERFAB/xiangshu2" />
+      <Asset Guid="a7730ff403f5d034eb3419781d3417ba" ResourceName="UI/UISprites/Game/czjm_gongji" />
+      <Asset Guid="a7795ae325c7b3d4b986309d4bda67a8" ResourceName="Model/Beetle/Bettle" />
+      <Asset Guid="a852967064ee6954f95971ca1c51752a" ResourceName="UI/UISprites/Game/czjm_xueliang" />
+      <Asset Guid="a8c07bbe04fdaf04b80e27f651a8edd6" ResourceName="UI/UISprites/Common/button-outline" />
+      <Asset Guid="a8db0db9e4709a049aff7dca67fa67f2" ResourceName="Terrain/Terrain_2/moxing/gutou/leigu" />
+      <Asset Guid="a9dc132072daff54ea924d31bae818fb" ResourceName="Terrain/Terrain_2/moxing/Materials/mine_ore" />
+      <Asset Guid="a9f6787ab6845dd4ab6cf17bf178d777" ResourceName="UI/UISprites/Box/bx_bg" />
+      <Asset Guid="aa3882d23483b414e9f4e061e609e6c7" ResourceName="UI/UISprites/Menu/kaishijiemian/shu_2" />
+      <Asset Guid="aa726287c9e7cf846b493f8b19961883" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/BrachLP_1" />
+      <Asset Guid="ab0dcf2a35ad7dd44821cbc235898c17" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/BWL_1" />
+      <Asset Guid="ab45c3f613f388d43bbf43ec05eb92e2" ResourceName="UI/UISprites/Common/dialog-background" />
+      <Asset Guid="ab580e2c22bf2494a963870c9dcb3f0b" ResourceName="UI/UISprites/Menu/tiankong" />
+      <Asset Guid="abbe039cf2453394bac1391613ea0073" ResourceName="UI/UISprites/EvoluTree/jhfz_jintou_5" />
+      <Asset Guid="ac91af6fe3c9b2943babfd8289a5ad9d" ResourceName="UI/UISprites/EvoluTree/jhfz_biaoti_dk" />
+      <Asset Guid="ad572d0f1bbd1964290720a192288abe" ResourceName="UI/UISprites/Game/czjm_jinhualian" />
+      <Asset Guid="ad80cdf63f540ca42b600b6c24a6e476" ResourceName="Prefabs/Oviraptor" />
+      <Asset Guid="ad964d2c4e56e304b8feb3920df1f72f" ResourceName="Terrain/Terrain_2/moxing/danlvse" />
+      <Asset Guid="ae4daf1b86ee2ec45bf6f733a38ba96e" ResourceName="Model/Beetle/Bettle" />
+      <Asset Guid="ae69e86d158a85a469c76a23d43dbfe0" ResourceName="Terrain/Terrain_2/moxing/huacao/huacao" />
+      <Asset Guid="ae976056ad58a2d498ce258944a170dc" ResourceName="UI/UISprites/Menu/kaishijiemian/shu_3" />
+      <Asset Guid="ae9c05f67838b3948a5cb9499aa43665" ResourceName="Terrain/Terrain_2/moxing/shu/PERFAB/Gshenlvse" />
+      <Asset Guid="afde6685ae8a92d4ba746b48287de9a7" ResourceName="UI/UISprites/TreeSpecies/jhfz_konglong_6" />
+      <Asset Guid="b112704c17a12dc409908f65b758ea1a" ResourceName="Terrain/Terrain_2/moxing/dongwu/chushilong/oviLowA" />
+      <Asset Guid="b159b600d3e3c464ba0b65e54919782a" ResourceName="UI/UISprites/Card/kp_konglong_9" />
+      <Asset Guid="b396aa2621958ee4ca7867ad4d05499d" ResourceName="UI/UISprites/EvolutionSceen/jhbj_xing_1" />
+      <Asset Guid="b461c8881320c974b841790810cb5f8a" ResourceName="Terrain/Terrain_2/moxing/Materials/Dungeons_Texture_04" />
+      <Asset Guid="b4835aa83d321074694299d1eeb674a3" ResourceName="Model/DinanoEgg/DinosaurEgg_BaseColor" />
+      <Asset Guid="b5a7c85b01e723c478106bce0647d216" ResourceName="UI/UISprites/EvoluTree/jhfz_jintou_8" />
+      <Asset Guid="b7ecc0c1a76535b40999a8cb02d49158" ResourceName="Entities/Parasaurolophus" />
+      <Asset Guid="b80f44c8df176a644890031d74b9e5f8" ResourceName="UI/UIForms/BoxForm" />
+      <Asset Guid="b8400089d9d060f4fa835335a21d0823" ResourceName="UI/UISprites/EvoluTree/jhfz_tu_1" />
+      <Asset Guid="b91be3fff1abc1c4a824dead875fec66" ResourceName="Terrain/Terrain_2/moxing/dongwu/Xiyi/dimeLowA" />
+      <Asset Guid="b93906b4811020445a9678e24e5324a4" ResourceName="UI/UISprites/Game/czjm_dengji_5" />
+      <Asset Guid="ba1cc57e661149749aee549015d45195" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/kentLowA" />
+      <Asset Guid="bbccdf7bc239e3148994c940283ec0db" ResourceName="UI/UISprites/Menu/kaishijiemian/yinying_3" />
+      <Asset Guid="bc736c18db76e8d40889eeb642fb5a1d" ResourceName="Terrain/Terrain_2/Prefab/Map" />
+      <Asset Guid="bcd598ab0b576f94d9f16c040b4f7331" ResourceName="Terrain/Rou/prefabs/Rou_2" />
+      <Asset Guid="bcdd38434fd06e94a924870ee2ebd318" ResourceName="Sounds/eatRou" />
+      <Asset Guid="bcddfe77c544e16429026da5c259d30e" ResourceName="Entities/Baryonyx_Player" />
+      <Asset Guid="bd85b0d97828b68488db8a2261c19b9a" ResourceName="Terrain/Terrain_2/moxing/map/map" />
+      <Asset Guid="bd9a7f4e4226c7044992397f11cb4c9a" ResourceName="Terrain/Terrain_2/moxing/huacao/Color" />
+      <Asset Guid="bdb13ae34a7342247affd600760fcbf3" ResourceName="UI/UISprites/Common/ty_guanbi" />
+      <Asset Guid="bf675b188d197834699e79b08db87cb3" ResourceName="Prefabs/TyrannosaurusRex" />
+      <Asset Guid="c03077bd29b1b8145a9eb05ebdbece0b" ResourceName="Terrain/Terrain_2/moxing/dongwu/Jilong/rapLowPoly" />
+      <Asset Guid="c08aa30e5a43b3f4fba8eeb5f082fed7" ResourceName="Entities/Velociraptor_Player" />
+      <Asset Guid="c242344de618aba4d8de7e5907d4d1f8" ResourceName="Entities/Iguanodon_Player" />
+      <Asset Guid="c2cf9286c33681b4d803ed15801df1de" ResourceName="Ani/donghua/huoshan/huoshan" />
+      <Asset Guid="c3c6243c9d2354e4fa903ab48b70e829" ResourceName="Music/music_menu" />
+      <Asset Guid="c3d6e832ff8d45d4a95871f15c2057d8" ResourceName="Music/music_background" />
+      <Asset Guid="c3efdfc9aad3a9842a32dcc7cf9058b8" ResourceName="Terrain/Terrain_2/moxing/Dhuamushen" />
+      <Asset Guid="c4884bcd605cad34da51c445d0e30d92" ResourceName="Terrain/Terrain_2/moxing/huacao/Materials/ColorAtlas" />
+      <Asset Guid="c540361718e24fb4fa581ad47c83b186" ResourceName="Terrain/Terrain_2/moxing/gutou/shenqu" />
+      <Asset Guid="c5f56ce4e436c484195ef3ab1c11b69f" ResourceName="UI/UISprites/Game/czjm_dengji_4" />
+      <Asset Guid="c70fbf7926cd3244d8d9bb26deb84525" ResourceName="Particle/ChangeSpecies/PolygonArsenal/Materials/Sprites/PolySprite_AB" />
+      <Asset Guid="c74c36374d0a5984796ce4fbb35fdf8b" ResourceName="UI/UISprites/Card/jhfz_sidai" />
+      <Asset Guid="c7d7458495980be40b839c7cb627c65d" ResourceName="Terrain/Terrain_2/moxing/shu/qianlvshu" />
+      <Asset Guid="c863753785e02ca4ca10d423bc72b99d" ResourceName="UI/UISprites/EvoluTree/jhfz_qbjhfz" />
+      <Asset Guid="c890fbb1638f9ec4696b2384564e9593" ResourceName="Terrain/Terrain_2/moxing/shui/shui" />
+      <Asset Guid="c8d69e8535cc17d44bed979331dbadf5" ResourceName="UI/UISprites/EvoluTree/jhfz_jintou_4" />
+      <Asset Guid="c962c6f14dbf23b42a19a8b2f935a13c" ResourceName="Ani/donghua/Title/Title" />
+      <Asset Guid="c985566516ede5f42bc1947a504ec61d" ResourceName="Terrain/Terrain_2/moxing/shu/xiangshu1" />
+      <Asset Guid="c9c368bbb25f1bf4baa642811a6588dc" ResourceName="Terrain/Terrain_2/moxing/huangshitou" />
+      <Asset Guid="c9eb15264aa6c4348b00d5b9b3daab2a" ResourceName="Particle/LevelUp_2/Prefabs/LevelUp_2" />
+      <Asset Guid="ca49524cceafe6d43b0b0ca43031d1ad" ResourceName="Terrain/Terrain_2/moxing/shu/Dhuamuqian" />
+      <Asset Guid="cad964c3178592d41808a7167292473a" ResourceName="Entities/Brachiosauru_Player3" />
+      <Asset Guid="cadd0764941c8b646ae79b51d0ea8285" ResourceName="UI/UISprites/Common/background" />
+      <Asset Guid="cb3de29e2663038469c5773bcb22ac6d" ResourceName="UI/UISprites/Card/kp_xz" />
+      <Asset Guid="cb43ae3a0df65774d90567bedc745df9" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/SpinoLP" />
+      <Asset Guid="cb75e8dc50431b0409e3cd6865224249" ResourceName="Terrain/Terrain_2/moxing/shu/PERFAB/qianlvshu" />
+      <Asset Guid="cbcc08ef897053740881e8c2e452d1e2" ResourceName="UI/UISprites/EvoluTree/jhfz_jintou_1" />
+      <Asset Guid="cc21071c3f8bb0c46b86eb33824164ff" ResourceName="Terrain/Terrain_2/moxing/shu/Gqianlvse" />
+      <Asset Guid="cc60147ec3f0f4a4b831e57284fdd1ce" ResourceName="Terrain/Terrain_2/moxing/di/map" />
+      <Asset Guid="cc7969b34566f5c4693855605f5d6085" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/OviLP" />
+      <Asset Guid="cce59d6d91d8b3d46a5a5105d2a8f5ea" ResourceName="Terrain/Terrain_2/moxing/dongwu/chushilong/OviLP" />
+      <Asset Guid="cdb6c65f04654f446aa4407ec4640e34" ResourceName="UI/UISprites/Menu/huoshan/hsy_7" />
+      <Asset Guid="cdba45add782ae440aef1905f5ec2893" ResourceName="Terrain/Terrain_2/PolygonNature/TerrainAutoUpgrade/layer_Sand_DesertBaseGrass_normals2023054508611406" />
+      <Asset Guid="ce52a7627f791234aa84f247915ff610" ResourceName="Particle/LevelUp_2/Textures/PolygonParticles_HalfCircle" />
+      <Asset Guid="ce8fd15367653c04e8f72858d2624add" ResourceName="Entities/LevelUp_1" />
+      <Asset Guid="cea1e7493fa2932458b3ff90007a0dc5" ResourceName="Sounds/hit_Player" />
+      <Asset Guid="cf2b77d53458f3f439b7b214486cc414" ResourceName="UI/UISprites/Game/yxjm_yaogan_1" />
+      <Asset Guid="cf62381d772ade54fb69ca5924645f20" ResourceName="DataTables/Enemy" />
+      <Asset Guid="cfe53cf384344bd47a8680f8c5f97a7b" ResourceName="DataTables/Entity" />
+      <Asset Guid="d052d8bfbe200bd41b6a3ffc33a89c4b" ResourceName="Terrain/Terrain_2/moxing/dongwu/Jilong/baryLowC" />
+      <Asset Guid="d0ed3879bbb20484fa4dbc2c1c927359" ResourceName="Entities/Pachycephalosaurus_Player" />
+      <Asset Guid="d150abd6cc306fa408624f489453d538" ResourceName="UI/UISprites/EvoluTree/jhfz_sidai" />
+      <Asset Guid="d1d84d034e0186d4f9fa7a03fa4c291f" ResourceName="UI/UISprites/Menu/kaishijiemian/shu_4" />
+      <Asset Guid="d277a478dfea0c849a23b57887d5e5f8" ResourceName="Terrain/Terrain_2/moxing/dongwu/Xiyi/Atlas" />
+      <Asset Guid="d2e14e5f45f127b4486546fe244c1b64" ResourceName="Entities/Protoceratops_Player" />
+      <Asset Guid="d35f6bef87b176b48ac516470ef5e402" ResourceName="Sounds/gameFailed" />
+      <Asset Guid="d487649133ed2194bbaa87738e697fb1" ResourceName="UI/UISprites/EvoluTree/jhfz_bg" />
+      <Asset Guid="d4cc17a0f77b735448d9803e7bfd02b4" ResourceName="Entities/FruiterTree_Enemy" />
+      <Asset Guid="d4cffdaa35267704994d4b689f975ab3" ResourceName="Terrain/Terrain_2/moxing/lvshitou" />
+      <Asset Guid="d50aef2786bc5744c8cde08de1cc7ba9" ResourceName="Terrain/Terrain_2/moxing/Stone/perfab/Hshitou1" />
+      <Asset Guid="d606d40baf2fc7e44b473d57a725c84e" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/stegLowC" />
+      <Asset Guid="d6472dfb261e3574aae55ec52bef3b4e" ResourceName="UI/UISprites/Menu/huoshan/hsy_10" />
+      <Asset Guid="d91cd7df8d6e84043b33595d7a16fa5c" ResourceName="UI/UISprites/EvolutionSceen/jhbj_bg" />
+      <Asset Guid="d942be114a9df064280d124a6954bf85" ResourceName="UI/UISprites/Box/bx_baoxiang_1" />
+      <Asset Guid="d9d3f5910c972994a9f3b7946fba93e1" ResourceName="Entities/IguanodonDie_Enemy" />
+      <Asset Guid="da183a5dee846f14d8ae171eff4bb8a3" ResourceName="Model/FruiterTree/GuoShu" />
+      <Asset Guid="da3190847c65eed4c935d3f690e9d03d" ResourceName="UI/UISprites/Game/czjm_dengji_3" />
+      <Asset Guid="da3200cb7fccfb6409250de9ce29939c" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/iguaLP" />
+      <Asset Guid="daeeeddb0787a1040b2b21973cdd97ed" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/protoLowC" />
+      <Asset Guid="db03092ff43bc9c43b267efcbfd3b0e7" ResourceName="Particle/ChangeSpecies/PolygonArsenal/Shaders/Standard/PolyRimLightTransparent" />
+      <Asset Guid="db58965402f12ed47b4dad61a9e48c9d" ResourceName="UI/UISprites/Icons/world" />
+      <Asset Guid="dba4c93fcc1d08443abc71b1b71a5a77" ResourceName="Terrain/Terrain_2/moxing/shu/PERFAB/xiangshu3" />
+      <Asset Guid="dbd9d94faf7c2d6488b2a3c4b82abd6d" ResourceName="Terrain/Terrain_2/moxing/Gzhongse" />
+      <Asset Guid="dbf7e73969fbe5c4f90955b96f82fa4b" ResourceName="Terrain/Terrain_2/moxing/Stone/shitou" />
+      <Asset Guid="dc2bec5b0e4fa574aa4ea928c44c6d6d" ResourceName="Terrain/Terrain_2/moxing/dongwu/sanjiaolong/protoLP" />
+      <Asset Guid="dcbf8b2e1420d6545bf2aa5fb784a8e7" ResourceName="Model/Beetle/JiaKeChong_orange" />
+      <Asset Guid="ddefbbb2509c3ae4fa65aaca20d78ad6" ResourceName="Model/FruiterTree/FruiterTree_1" />
+      <Asset Guid="de5c66321b2b2c04ca149f8a16e313a2" ResourceName="Entities/Kentrosaurus_Player" />
+      <Asset Guid="df35298cf82bf8a43a51a62ba4583887" ResourceName="UI/UISprites/Menu/huoshan/hsy_9" />
+      <Asset Guid="df59226f43f0b334ab91bcbc83d20d33" ResourceName="UI/UISprites/EvoluTree/jhfz_zhiren_2" />
+      <Asset Guid="df5dd473a7eddfb4da3eec613bb926e6" ResourceName="UI/UISprites/Box/bx_baoxiang_3" />
+      <Asset Guid="dfdd7d3f9e24ede4283c5b523046d0e0" ResourceName="Terrain/Terrain_2/moxing/honghua" />
+      <Asset Guid="e0a34a80f9bed5045be38b2052e937df" ResourceName="UI/UIForms/UnpackForm" />
+      <Asset Guid="e0f61308cdd585949979332ba9aa04d5" ResourceName="Terrain/Terrain_2/moxing/huacao/Hhuacao" />
+      <Asset Guid="e0fb5cd776e26c8468d2e1f38d4cbc4a" ResourceName="Terrain/Terrain_2/moxing/dongwu/bawanglong/rexLowA" />
+      <Asset Guid="e16a2dc7ea6f77145ad3c88d3db1afb0" ResourceName="UI/UIForms/TipsForm" />
+      <Asset Guid="e2c48d3fab6984c42a1ce0d5a7a00584" ResourceName="Model/FruiterTree/xiangshu3baozha" />
+      <Asset Guid="e2f7ef80de9263046ad4939ee376d90b" ResourceName="Model/DinanoEgg/DanChao" />
+      <Asset Guid="e42b1074b4163854da1bb4610e664055" ResourceName="Model/DinanoEgg/Materials/DinosaurEgg_BaseColor" />
+      <Asset Guid="e4e5dd8582b34764b8e2ddae8acdf9ba" ResourceName="Terrain/Terrain_2/moxing/shu/xiangshu3" />
+      <Asset Guid="e5ca26c53b6ab8a46b52817008d7c7fa" ResourceName="UI/UISprites/Icons/sound" />
+      <Asset Guid="e6b414e76227dd24e86e77131f4fe270" ResourceName="Particle/ChangeSpecies/PolygonArsenal/Textures/polyspriteline" />
+      <Asset Guid="e6c9d6fd8418e884c98c80e4bb33ecd7" ResourceName="Model/MushRoom/Materials/mogu" />
+      <Asset Guid="e70df561bef80df479efcda21f57605a" ResourceName="Terrain/Terrain_2/moxing/shu/PERFAB/Dshense" />
+      <Asset Guid="e7ae98e53765ebd4a824b8fdc93683b3" ResourceName="UI/UISprites/Menu/huoshan/hsy_4" />
+      <Asset Guid="e82837c9099f69a48b48fc44eb8d119d" ResourceName="UI/UISprites/Common/progressbar" />
+      <Asset Guid="e82eab654b079ff4dbd2530462b78e0e" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/kentLowPoly" />
       <Asset Guid="e830964cdb85ff3429bca484c16bab44" ResourceName="UI/UISounds" />
-      <Asset Guid="e85864330b68dde498dcb6e8711815d3" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="eabb37cb6d738b443b398b701a64cd88" ResourceName="Textures" />
-      <Asset Guid="f2f4df0b7211e4c42a5638273525d8ee" ResourceName="UI/UISprites/Common" />
-      <Asset Guid="f2f97a713beae744181ba934f9c4113a" ResourceName="DataTables" />
-      <Asset Guid="f36c72c738c55f741afcd674a0b1245f" ResourceName="Materials" />
-      <Asset Guid="f438a72a91e1c3c4a9ced40888ffec96" ResourceName="UI/UISprites/Icons" />
-      <Asset Guid="f4ec271e525e14ca9927a07e6a2e153d" ResourceName="Entities" />
-      <Asset Guid="f6db5bbdfe0e9894798706814cd6b336" ResourceName="Textures" />
-      <Asset Guid="fd3cbf51780694849b9b019b36a3938e" ResourceName="Textures" />
-      <Asset Guid="fdb5edd099d06b045af609ba3172400a" ResourceName="DataTables" />
-      <Asset Guid="fedd25a3c60e7ae499fc6efab9ee180b" ResourceName="Entities" />
+      <Asset Guid="e85294d06423fe64c8ff30e832f26a46" ResourceName="Particle/Death/PolygonParticleFX/Models/FX_Star" />
+      <Asset Guid="e85864330b68dde498dcb6e8711815d3" ResourceName="UI/UISprites/Common/round-button-filled" />
+      <Asset Guid="e86bf10d9c64cd341b651bb5611f9c11" ResourceName="UI/UISprites/EvolutionSceen/jhbj_wudian" />
+      <Asset Guid="e8749fb7f51701b4b9c844d60e1fad5b" ResourceName="UI/UISprites/EvoluTree/jhfz_jintou_2" />
+      <Asset Guid="e876b51e5d8d44a2ac16dac5498eb970" ResourceName="Terrain/Terrain_2/moxing/dongwu/shicaolong/iguaLowA" />
+      <Asset Guid="e9ac24b0c0a9b5241b22c3f16ed4d00b" ResourceName="UI/UISprites/EvoluTree/jhfz_zhiren_fenzhi_3" />
+      <Asset Guid="e9c80f7142b6437419dba426fd89b9c6" ResourceName="UI/UISprites/Game/czjm_dengji" />
+      <Asset Guid="ea52ff4acc993614d94f03cc97756418" ResourceName="UI/UISprites/Menu/kaishijiemian/yinying_1" />
+      <Asset Guid="eae828684f926e042b7e1c9ba74ef5fe" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/StyraLP" />
+      <Asset Guid="eb15026b903e53247ab851b1056e0d0c" ResourceName="UI/UIItems/WarningSign" />
+      <Asset Guid="eb8a51d0d6a4e1443808563f120c64d8" ResourceName="Terrain/Terrain_2/moxing/gutou/weiba" />
+      <Asset Guid="ed224e7df84950e418fedf451fbe1f84" ResourceName="Sounds/hit_Velociraptor" />
+      <Asset Guid="edddba054057d7c49b0669dc00b76644" ResourceName="Terrain/Terrain_2/PolygonNature/Textures/Ground_Textures/BaseGrass_normals" />
+      <Asset Guid="edf12e91890b8434eb8ea701f9bc40a2" ResourceName="Particle/Death/PolygonParticleFX/Prefabs/Death_Particle" />
+      <Asset Guid="eee4e53cc52513641931942b63c2b840" ResourceName="UI/UISprites/EvoluTree/jhfz_tu_dk" />
+      <Asset Guid="f2183720f70f87947b118c438b53f02a" ResourceName="Terrain/Terrain_2/moxing/xiangshu4" />
+      <Asset Guid="f222dcac53b005c4eb18d07caf5a4299" ResourceName="Entities/TyrannosaurusRex" />
+      <Asset Guid="f2be09b9650199844bbd0a07d1b3e491" ResourceName="UI/UISprites/Game/czjm_aixin_2" />
+      <Asset Guid="f2f4df0b7211e4c42a5638273525d8ee" ResourceName="UI/UISprites/Common/box" />
+      <Asset Guid="f2f97a713beae744181ba934f9c4113a" ResourceName="DataTables/UISound" />
+      <Asset Guid="f3701fe5a06780e4cb684fceed1bf582" ResourceName="Terrain/Terrain_2/moxing/Stone/perfab/Hshitou2" />
+      <Asset Guid="f42a357a923c92f4b9818c765c8b2c03" ResourceName="Particle/Death/PolygonParticleFX/Materials/PolygonParticleFX_Additive_Soft" />
+      <Asset Guid="f436ccf278b54b54f8bd8deb0187d8d8" ResourceName="Prefabs/Brachiosauru" />
+      <Asset Guid="f438a72a91e1c3c4a9ced40888ffec96" ResourceName="UI/UISprites/Icons/music" />
+      <Asset Guid="f4b41cdca7c25244f828fca95f5c5efc" ResourceName="Terrain/Terrain_2/moxing/huacao/PERFAB/Honghuacao" />
+      <Asset Guid="f4de175b7aee32a48816d767f6d6bf5d" ResourceName="Particle/ChangeSpecies/Change/jinhua/quan" />
+      <Asset Guid="f589a4128f6f4e94798b0a328c38ad4e" ResourceName="Terrain/Terrain_2/moxing/Blocks_Color" />
+      <Asset Guid="f75e7053c2a0f4a4dadb30f571525baa" ResourceName="DataTables/Level" />
+      <Asset Guid="f78a5ef99e7306b49a2dc5ecd26eaa02" ResourceName="UI/UISprites/TreeSpecies/jhfz_konglong_1" />
+      <Asset Guid="f85cb58deb7aca342a8b141589501a0d" ResourceName="Prefabs/Iguanodon" />
+      <Asset Guid="f8da948f6e39bff4a9f2973a1938f3cd" ResourceName="Prefabs/Styracosaurus" />
+      <Asset Guid="f94d9abbe5296104c862a881b6a32738" ResourceName="Entities/Rou" />
+      <Asset Guid="f9817c8d5bc82d146852390558850d65" ResourceName="UI/UISprites/EvoluTree/jhfz_tu_2" />
+      <Asset Guid="fa0bfeb06e397804588550e76941d7cc" ResourceName="Entities/TyrannosaurusRex_Player" />
+      <Asset Guid="fa958309f9981534eb6ad7417342ed96" ResourceName="Terrain/Terrain_2/moxing/dongwu/bawanglong/BWanglong" />
+      <Asset Guid="faeb88c246231cb4aafcb2bc5b5b0427" ResourceName="Particle/ChangeSpecies/PolygonArsenal/Lights/PolygonLight" />
+      <Asset Guid="fb609b69ed6b59c438d78ce347202c4f" ResourceName="UI/UISprites/EvoluTree/jhfz_jdt_2" />
+      <Asset Guid="fbc8f86bc3efbae48928103c9f6a7558" ResourceName="Terrain/Terrain_2/moxing/Stone/Hshitou2" />
+      <Asset Guid="fc61de1b9f4e6b14bbcf8ce3021062aa" ResourceName="Terrain/Terrain_2/moxing/shu/PERFAB/xiangshu1" />
+      <Asset Guid="fc82c8a4d13e26e43891daf09976f6ce" ResourceName="Terrain/Terrain_2/moxing/dongwu/chushilong/oviLowPoly" />
+      <Asset Guid="fce45c0643e4c654a8843b63b040947e" ResourceName="UI/UISprites/TreeSpecies/jhfz_konglong_4" />
+      <Asset Guid="fd3857485b22598459c0859753ffcdda" ResourceName="Terrain/Terrain_2/moxing/huacao/newMat" />
+      <Asset Guid="fd786b0db3be02b4399351f66ff7d8c6" ResourceName="Terrain/Terrain_2/moxing/huacao/honghua" />
+      <Asset Guid="fdb5edd099d06b045af609ba3172400a" ResourceName="DataTables/Scene" />
+      <Asset Guid="fe166e91d05ecc54abfd18f2cbd2a2fb" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/IguaLP" />
+      <Asset Guid="fef7e61ce84d6f64b86db89e97a44013" ResourceName="UI/UISprites/Menu/dimian" />
+      <Asset Guid="fefe93bff902a6646b0b904f45c97d93" ResourceName="UI/UISprites/Card/kp_konglong_2" />
+      <Asset Guid="ff02706760d146648b170e69d7033e5d" ResourceName="Terrain/Terrain_2/moxing/dongwu/ptefabs/RapLP" />
     </Assets>
   </ResourceCollection>
 </UnityGameFramework>

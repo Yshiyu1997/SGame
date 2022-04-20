@@ -6,7 +6,12 @@
     <String Key="Game.Website" Value="https://GameFramework.cn/" />
     <String Key="Game.Summary" Value="这是一个使用 Game Framework 游戏框架制作的游戏演示项目，目的是对此游戏框架的使用方法做一些示范，供使用者参考。" />
     <String Key="Game.Introduction" Value="Game Framework 是基于 Unity 引擎的游戏框架，主要对游戏开发过程中常用模块进行了封装，很大程度地规范开发过程、加快开发速度并保证产品质量。" />
+    <String Key="Game.Two" Value="2" />
+    <String Key="Game.Three" Value="3" />
+    <String Key="Game.Four" Value="4" />
     <String Key="Menu.StartButton" Value="开始" />
+    <String Key="Menu.ClagodramButton" Value="进化树" />
+    <String Key="Menu.AttackButton" Value="攻击" />
     <String Key="Menu.SettingButton" Value="设置" />
     <String Key="Menu.AboutButton" Value="关于" />
     <String Key="Menu.QuitButton" Value="退出" />
@@ -25,5 +30,45 @@
     <String Key="Setting.UISound" Value="界面音效" />
     <String Key="Setting.Language" Value="语言" />
     <String Key="Setting.LanguageTips" Value="更改语言需要重启游戏" />
+    <String Key="Failed.RestartButton" Value="重新开始"/>
+    <String Key="Failed.ResurgenceButton" Value="复活"/>
+    <String Key="Failed.Tip1" Value="失去获得的物品和等级重新开始"/>
+    <String Key="Failed.Tip2" Value="保留物种等级和获得的基因点数复活"/>
+    <String Key="Tree.CardUnLock" Value="卡牌解锁进度"/>
+    <String Key="Tree.EndUnLock" Value="结局进度"/>
+    <String Key="Tree.Cell" Value="真核细胞"/>
+    <String Key="Tree.AncidentFish" Value="远古鱼类"/>
+    <String Key="Tree.Lizard" Value="蜥蜴"/>
+    <String Key="Tree.Duckmole" Value="鸭嘴兽"/>
+    <String Key="Tree.Squirrel" Value="松鼠"/>
+    <String Key="Tree.Ape" Value="猿猴"/>
+    <String Key="Tree.Human" Value="人类"/>
+    <String Key="Tree.TerrifyingApe" Value="恐怖直立猿"/>
+    <String Key="Tree.Eoraptor" Value="始盗龙"/>
+    <String Key="Tree.PlantEatDinao" Value="草食龙"/>
+    <String Key="Tree.Triceratops" Value="三角龙"/>
+    <String Key="Tree.MeatEatDinao" Value="棘龙"/>
+    <String Key="Tree.Tyrannosaurus" Value="暴龙"/>
+    <String Key="Tree.Brachiosaurus" Value="腕龙"/>
+    <String Key="Tree.Godzilla" Value="哥斯拉"/>
+    <String Key="Tree.TropicalFish" Value="热带鱼"/>
+    <String Key="Tree.BonyFish" Value="硬骨鱼类"/>
+    <String Key="Tree.CartilaginousFish" Value="软骨鱼类"/>
+    <String Key="Tree.SeaTurtle" Value="海龟"/>
+    <String Key="Tree.Tortoise" Value="玄武"/>
+    <String Key="Tree.GuardingQuartet" Value="镇守四方"/>
+    <String Key="Tree.MarineMammals" Value="海洋哺乳类"/>
+    <String Key="Tree.LegendaryFish" Value="鲲"/>
+    <String Key="Tree.GobbleWorld" Value="吞噬天下"/>
+    <String Key="Tree.MonsterKing" Value="怪物之王"/>
+    <String Key="Tree.GodBeast" Value="灵之神兽"/>
+    <String Key="Tree.PrimateRise" Value="灵长类崛起"/>
+    <String Key="Tree.SureTip" Value="是否从该物种开始游戏？"/>
+    <String Key="Tree.Yes" Value="是"/>
+    <String Key="Tree.No" Value="否"/>
+    <String Key="Unpack.CardPlan" Value="卡牌进度："/>
+    <String Key="Award.Tips" Value="已将已拥有的卡牌碎片卖出"/>
+    <String Key="Choice.Title" Value="进化"/>
+    <String Key="Choice.Tips" Value="选择你的进化方向"/>
   </Dictionary>
 </Dictionaries>

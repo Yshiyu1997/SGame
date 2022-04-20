@@ -11,9 +11,9 @@ using UnityEditor;
 using UnityEngine;
 using UnityGameFramework.Editor.ResourceTools;
 
-namespace StarForce.Editor
+namespace SpeciesGame.Editor
 {
-    public sealed class StarForceBuildEventHandler : IBuildEventHandler
+    public sealed class SpeciesGameBuildEventHandler : IBuildEventHandler
     {
         public bool ContinueOnFailure
         {

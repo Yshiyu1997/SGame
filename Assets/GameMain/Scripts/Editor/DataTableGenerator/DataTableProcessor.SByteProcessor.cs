@@ -7,7 +7,7 @@
 
 using System.IO;
 
-namespace StarForce.Editor.DataTableTools
+namespace SpeciesGame.Editor.DataTableTools
 {
     public sealed partial class DataTableProcessor
     {

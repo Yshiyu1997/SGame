@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GameMain",
+    "\\GameMain\\Scripts",
+    "\\GameMain\\Scripts\\Entity",
+    "\\GameMain\\Scripts\\Entity\\EntityLogic",
+    "\\GameMain\\Scripts\\Game",
+    "\\GameMain\\Scripts\\UI",
+    "\\GameMain\\Scripts\\UI\\Customs",
+    "\\GameMain\\UI",
+    "\\Jurassic Pack"
+  ],
+  "PreviewInSolutionExplorer": false
+}
